@@ -1,0 +1,13 @@
+:root {
+    --main-font: Roboto;
+    --main-font-color: white;
+    --cards-background-color: #03295D;
+    --modale-background-color: rgba(0, 0, 0, 0.8);
+    --button-color: #29A71A;
+    --button-hover-color: #218517;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("/src/assets/fonts/roboto.ttf");
+}

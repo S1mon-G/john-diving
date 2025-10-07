@@ -1,0 +1,88 @@
+.cenote-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--modale-background-color);
+}
+
+.close {
+    cursor: pointer;
+}
+
+.cenote-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.cenote-infos {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 2rem;
+    background-color: var(--cards-background-color);
+    color: var(--main-font-color);
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 1100px;
+    margin-top: 2em;
+}
+
+.cenote-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cenote-left h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.cenote-left h3 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.cenote-left ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.3rem 0 0.8rem;
+}
+
+.cenote-left li {
+    padding-left: 1em;
+    position: relative;
+}
+
+.cenote-left li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #00bfff;
+}
+
+.cenote-contact {
+    margin-top: 1rem;
+    align-self: flex-start;
+}
+
+.cenote-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cenote-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
