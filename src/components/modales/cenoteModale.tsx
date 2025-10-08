@@ -47,14 +47,14 @@ export default function CenoteModale({ isOpen, onClose }: Props) {
                             <h2>{t(cenote.title)}</h2>
                             <p>{t(cenote.description)}</p>
 
-                            <h3>Points forts</h3>
+                            <h3>{t('diving.title.highlight')}</h3>
                             <ul>
                                 {cenote.highlights.map((item, i) => (
                                     <li key={i}>{t(item)}</li>
                                 ))}
                             </ul>
 
-                            <h3>Pourquoi plonger ici ?</h3>
+                            <h3>{t('diving.title.dive')}</h3>
                             <ul>
                                 {cenote.selling_points.map((point, i) => (
                                     <li key={i}>{t(point)}</li>
