@@ -448,9 +448,6 @@ export const translations: Record<Language, TranslationObject> = {
         // // TripAdvisor
         // 'tripadvisor.title': 'ENCUÉNTRANOS EN TRIPADVISOR',
 
-        // // Reviews
-        // 'review.charles': '¡Una experiencia excepcional! Los guías son profesionales y apasionados. Los cenotes son magníficos y el equipo es de calidad.',
-        // 'review.sophie': '¡Buceo inolvidable en los cenotes! El equipo de John Diving es fantástico, muy seguro y conoce perfectamente los sitios.'
     },
 
     en: {
@@ -593,14 +590,14 @@ export const translations: Record<Language, TranslationObject> = {
         "diving.kankirixche.final_word": "Kankirixche is an exhilarating dive for those seeking excitement in the cenotes.",
 
 
-        // // Services
-        // 'services.title': 'OUR SERVICES',
-        // 'services.personalized': 'PERSONALIZED SERVICE',
-        // 'services.personalized.desc': 'Organize a tailor-made trip according to your diving level and preferences. Our experienced instructors accompany you during your dives for an unforgettable experience.',
-        // 'services.training': 'CERTIFICATION COURSES',
-        // 'services.training.desc': 'Take advantage of your stay to start your training or validate your skills.',
-        // 'services.multilingual': 'MULTILINGUAL SERVICES',
-        // 'services.multilingual.desc': 'Our team speaks French, Spanish, and English to assist you in your native language throughout your underwater adventure.',
+        // Services
+        'services.title': 'OUR SERVICES',
+        'services.personalized': 'PERSONALIZED SERVICE',
+        'services.personalized.desc': 'Organize a tailor-made trip according to your diving level and preferences. Our experienced instructors accompany you during your dives for an unforgettable experience.',
+        'services.training': 'CERTIFICATION COURSES',
+        'services.training.desc': 'Take advantage of your stay to start your training or validate your skills.',
+        'services.multilingual': 'MULTILINGUAL SERVICES',
+        'services.multilingual.desc': 'Our team speaks French, Spanish, and English to assist you in your native language throughout your underwater adventure.',
 
         // // Spot Section
         // 'spot.title': 'OUR CURRENT SPOT',
@@ -612,9 +609,5 @@ export const translations: Record<Language, TranslationObject> = {
 
         // // TripAdvisor
         // 'tripadvisor.title': 'FIND US ON TRIPADVISOR',
-
-        // // Reviews
-        // 'review.charles': 'An exceptional experience! The guides are professional and passionate. The cenotes are magnificent and the equipment is quality.',
-        // 'review.sophie': 'Unforgettable diving in the cenotes! The John Diving team is fantastic, very safe and knows the sites perfectly.'
     }
 };
