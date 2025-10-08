@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import WhattsappButton from "../WhatsappButton/WhatsappButton";
 import "./cenoteModale.css";
+import { useLanguage } from "../../contexts/LanguageContext";
 
 interface Cenote {
     id: number;
@@ -12,68 +13,70 @@ interface Cenote {
     image?: string;
 }
 
-function useCenoteData() {
-    const [cenoteInfos, setCenoteInfos] = useState<Cenote[]>([]);
-
-    useEffect(() => {
-        fetch("/data/cenotes.json")
-            .then((response) => response.json())
-            .then((data) => setCenoteInfos(data))
-            .catch((error) => console.error("Error fetching cenote data:", error));
-    }, []);
-
-    return cenoteInfos;
-}
-
-interface CenoteModaleProps {
+interface Props {
+    isOpen: boolean;
     onClose: () => void;
 }
 
-export default function CenoteModale({ onClose }: CenoteModaleProps) {
+function useCenoteData() {
+    const [cenoteInfos, setCenoteInfos] = useState<Cenote[]>([]);
+    useEffect(() => {
+        fetch("/data/cenotesv2.json")
+            .then((res) => res.json())
+            .then(setCenoteInfos)
+            .catch((err) => console.error("Error fetching cenote data:", err));
+    }, []);
+    return cenoteInfos;
+}
+
+export default function CenoteModale({ isOpen, onClose }: Props) {
     const cenoteInfos = useCenoteData();
+    const { t } = useLanguage();
+    if (!isOpen) return null;
 
     return (
         <section className="cenote-card-wrapper">
             <article className="cenote-card">
-                <p className="close" onClick={() => onClose()}>&times;</p>
-                {cenoteInfos.length > 0 &&
-                    cenoteInfos.map((cenote) => (
-                        <div key={cenote.id} className="cenote-infos">
+                <p className="close" onClick={onClose}>
+                    &times;
+                </p>
 
-                            <div className="cenote-left">
+                {cenoteInfos.map((cenote) => (
+                    <div key={cenote.id} className="cenote-infos">
+                        <div className="cenote-left">
+                            <h2>{t(cenote.title)}</h2>
+                            <p>{t(cenote.description)}</p>
 
-                                <h2>{cenote.title}</h2>
-                                <p>{cenote.description}</p>
+                            <h3>Points forts</h3>
+                            <ul>
+                                {cenote.highlights.map((item, i) => (
+                                    <li key={i}>{t(item)}</li>
+                                ))}
+                            </ul>
 
-                                <h3>Points forts</h3>
-                                <ul>
-                                    {cenote.highlights.map((item, i) => (
-                                        <li key={i}>{item}</li>
-                                    ))}
-                                </ul>
+                            <h3>Pourquoi plonger ici ?</h3>
+                            <ul>
+                                {cenote.selling_points.map((point, i) => (
+                                    <li key={i}>{t(point)}</li>
+                                ))}
+                            </ul>
 
-                                <h3>Pourquoi plonger ici ?</h3>
-                                <ul>
-                                    {cenote.selling_points.map((point, i) => (
-                                        <li key={i}>{point}</li>
-                                    ))}
-                                </ul>
+                            <p>{t(cenote.final_word)}</p>
 
-                                <p>{cenote.final_word}</p>
-
-                                <div className="cenote-contact">
-                                    <WhattsappButton />
-                                </div>
-                            </div>
-
-                            <div className="cenote-right">
-                                <img src="img/jd-cenote-test.JPG" alt={cenote.title} />
+                            <div className="cenote-contact">
+                                <WhattsappButton />
                             </div>
                         </div>
-                    ))}
 
+                        <div className="cenote-right">
+                            <img
+                                src="img/jd-cenote-test.JPG"
+                                alt={cenote.title}
+                            />
+                        </div>
+                    </div>
+                ))}
             </article>
-
         </section>
     );
 }

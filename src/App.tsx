@@ -1,17 +1,23 @@
 import { Outlet } from 'react-router'
-import Header from "./components/header/Header"
+import { LanguageProvider } from './contexts/LanguageContext'
 import Footer from './components/footer/Footer'
+import Navigation from './components/header/Navigation'
 import './App.css'
 import './assets/_variables.css'
+
 
 
 function App() {
 
   return (
     <>
-      <Header />
-      <Outlet />
-      <Footer />
+      <LanguageProvider>
+
+        <Navigation />
+        <Outlet />
+        <Footer />
+
+      </LanguageProvider>
     </>
   )
 }

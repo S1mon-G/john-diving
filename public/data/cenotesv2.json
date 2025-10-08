@@ -1,0 +1,268 @@
+[
+  {
+    "id": 1,
+    "title": "diving.chacmool.title",
+    "description": "diving.chacmool.description",
+    "highlights": [
+      "diving.chacmool.location",
+      "diving.chacmool.depth",
+      "diving.chacmool.level",
+      "diving.chacmool.duration"
+    ],
+    "selling_points": [
+      "diving.chacmool.highlight1",
+      "diving.chacmool.highlight2",
+      "diving.chacmool.highlight3",
+      "diving.chacmool.highlight4"
+    ],
+    "final_word": "diving.chacmool.final_word",
+    "image": "img/chacmool.jpg"
+  },
+  {
+    "id": 2,
+    "title": "diving.dosojos.title",
+    "description": "diving.dosojos.description",
+    "highlights": [
+      "diving.dosojos.location",
+      "diving.dosojos.depth",
+      "diving.dosojos.level",
+      "diving.dosojos.duration"
+    ],
+    "selling_points": [
+      "diving.dosojos.highlight1",
+      "diving.dosojos.highlight2",
+      "diving.dosojos.highlight3",
+      "diving.dosojos.highlight4"
+    ],
+    "final_word": "diving.dosojos.final_word",
+    "image": "img/dosojos.jpg"
+  },
+  {
+    "id": 3,
+    "title": "diving.eden.title",
+    "description": "diving.eden.description",
+    "highlights": [
+      "diving.eden.location",
+      "diving.eden.depth",
+      "diving.eden.level",
+      "diving.eden.duration"
+    ],
+    "selling_points": [
+      "diving.eden.highlight1",
+      "diving.eden.highlight2",
+      "diving.eden.highlight3",
+      "diving.eden.highlight4"
+    ],
+    "final_word": "diving.eden.final_word",
+    "image": "img/eden.jpg"
+  },
+  {
+    "id": 4,
+    "title": "diving.elpit.title",
+    "description": "diving.elpit.description",
+    "highlights": [
+      "diving.elpit.location",
+      "diving.elpit.depth",
+      "diving.elpit.level",
+      "diving.elpit.duration"
+    ],
+    "selling_points": [
+      "diving.elpit.highlight1",
+      "diving.elpit.highlight2",
+      "diving.elpit.highlight3",
+      "diving.elpit.highlight4"
+    ],
+    "final_word": "diving.elpit.final_word",
+    "image": "img/elpit.jpg"
+  },
+  {
+    "id": 5,
+    "title": "diving.angelita.title",
+    "description": "diving.angelita.description",
+    "highlights": [
+      "diving.angelita.location",
+      "diving.angelita.depth",
+      "diving.angelita.level",
+      "diving.angelita.duration"
+    ],
+    "selling_points": [
+      "diving.angelita.highlight1",
+      "diving.angelita.highlight2",
+      "diving.angelita.highlight3",
+      "diving.angelita.highlight4"
+    ],
+    "final_word": "diving.angelita.final_word",
+    "image": "img/angelita.jpg"
+  },
+  {
+    "id": 6,
+    "title": "diving.dreamgate.title",
+    "description": "diving.dreamgate.description",
+    "highlights": [
+      "diving.dreamgate.location",
+      "diving.dreamgate.depth",
+      "diving.dreamgate.level",
+      "diving.dreamgate.duration"
+    ],
+    "selling_points": [
+      "diving.dreamgate.highlight1",
+      "diving.dreamgate.highlight2",
+      "diving.dreamgate.highlight3",
+      "diving.dreamgate.highlight4"
+    ],
+    "final_word": "diving.dreamgate.final_word",
+    "image": "img/dreamgate.jpg"
+  },
+  {
+    "id": 7,
+    "title": "diving.taakbiha.title",
+    "description": "diving.taakbiha.description",
+    "highlights": [
+      "diving.taakbiha.location",
+      "diving.taakbiha.depth",
+      "diving.taakbiha.level",
+      "diving.taakbiha.duration"
+    ],
+    "selling_points": [
+      "diving.taakbiha.highlight1",
+      "diving.taakbiha.highlight2",
+      "diving.taakbiha.highlight3",
+      "diving.taakbiha.highlight4"
+    ],
+    "final_word": "diving.taakbiha.final_word",
+    "image": "img/taakbiha.jpg"
+  },
+  {
+    "id": 8,
+    "title": "diving.nicteha.title",
+    "description": "diving.nicteha.description",
+    "highlights": [
+      "diving.nicteha.location",
+      "diving.nicteha.depth",
+      "diving.nicteha.level",
+      "diving.nicteha.duration"
+    ],
+    "selling_points": [
+      "diving.nicteha.highlight1",
+      "diving.nicteha.highlight2",
+      "diving.nicteha.highlight3",
+      "diving.nicteha.highlight4"
+    ],
+    "final_word": "diving.nicteha.final_word",
+    "image": "img/nicteha.jpg"
+  },
+  {
+    "id": 9,
+    "title": "diving.carwash.title",
+    "description": "diving.carwash.description",
+    "highlights": [
+      "diving.carwash.location",
+      "diving.carwash.depth",
+      "diving.carwash.level",
+      "diving.carwash.duration"
+    ],
+    "selling_points": [
+      "diving.carwash.highlight1",
+      "diving.carwash.highlight2",
+      "diving.carwash.highlight3",
+      "diving.carwash.highlight4"
+    ],
+    "final_word": "diving.carwash.final_word",
+    "image": "img/carwash.jpg"
+  },
+  {
+    "id": 10,
+    "title": "diving.casacenote.title",
+    "description": "diving.casacenote.description",
+    "highlights": [
+      "diving.casacenote.location",
+      "diving.casacenote.depth",
+      "diving.casacenote.level",
+      "diving.casacenote.duration"
+    ],
+    "selling_points": [
+      "diving.casacenote.highlight1",
+      "diving.casacenote.highlight2",
+      "diving.casacenote.highlight3",
+      "diving.casacenote.highlight4"
+    ],
+    "final_word": "diving.casacenote.final_word",
+    "image": "img/casacenote.jpg"
+  },
+  {
+    "id": 11,
+    "title": "diving.zapote.title",
+    "description": "diving.zapote.description",
+    "highlights": [
+      "diving.zapote.location",
+      "diving.zapote.depth",
+      "diving.zapote.level",
+      "diving.zapote.duration"
+    ],
+    "selling_points": [
+      "diving.zapote.highlight1",
+      "diving.zapote.highlight2",
+      "diving.zapote.highlight3",
+      "diving.zapote.highlight4"
+    ],
+    "final_word": "diving.zapote.final_word",
+    "image": "img/zapote.jpg"
+  },
+  {
+    "id": 12,
+    "title": "diving.maravilla.title",
+    "description": "diving.maravilla.description",
+    "highlights": [
+      "diving.maravilla.location",
+      "diving.maravilla.depth",
+      "diving.maravilla.level",
+      "diving.maravilla.duration"
+    ],
+    "selling_points": [
+      "diving.maravilla.highlight1",
+      "diving.maravilla.highlight2",
+      "diving.maravilla.highlight3",
+      "diving.maravilla.highlight4"
+    ],
+    "final_word": "diving.maravilla.final_word",
+    "image": "img/maravilla.jpg"
+  },
+  {
+    "id": 13,
+    "title": "diving.yaakun.title",
+    "description": "diving.yaakun.description",
+    "highlights": [
+      "diving.yaakun.location",
+      "diving.yaakun.depth",
+      "diving.yaakun.level",
+      "diving.yaakun.duration"
+    ],
+    "selling_points": [
+      "diving.yaakun.highlight1",
+      "diving.yaakun.highlight2",
+      "diving.yaakun.highlight3",
+      "diving.yaakun.highlight4"
+    ],
+    "final_word": "diving.yaakun.final_word",
+    "image": "img/yaakun.jpg"
+  },
+  {
+    "id": 14,
+    "title": "diving.nohoch.title",
+    "description": "diving.nohoch.description",
+    "highlights": [
+      "diving.nohoch.location",
+      "diving.nohoch.depth",
+      "diving.nohoch.level",
+      "diving.nohoch.duration"
+    ],
+    "selling_points": [
+      "diving.nohoch.highlight1",
+      "diving.nohoch.highlight2",
+      "diving.nohoch.highlight3",
+      "diving.nohoch.highlight4"
+    ],
+    "final_word": "diving.nohoch.final_word",
+    "image": "img/nohoch.jpg"
+  }
+]

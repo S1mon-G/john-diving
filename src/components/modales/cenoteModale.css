@@ -1,18 +1,25 @@
 .cenote-card-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-    width: 100%;
-    height: 100%;
     position: fixed;
     top: 0;
     left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    z-index: 999;
     background-color: var(--modale-background-color);
 }
 
 .close {
     cursor: pointer;
+    font-size: 2em;
+    border: 2px solid white;
+    background: #455A64;
+    border-radius: 50%;
+    box-shadow: 0 0 20px -5px white;
+    transition: .25s ease-in-out;
 }
 
 .cenote-card {
