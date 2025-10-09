@@ -1,0 +1,35 @@
+[
+    {
+    "id": 1,
+    "title": "certified.cozumel.title",
+    "description": "certified.cozumel.description",
+    "highlights": "certified.cozumel.highlight",
+    "final_word": "certified.cozumel.final_word",
+    "image": "img/cozumel.jpg"
+},
+{
+    "id": 2,
+    "title": "certified.playa_del_carmen.title",
+    "description": "certified.playa_del_carmen.description",
+    "highlights": "certified.playa_del_carmen.highlight",
+    "final_word": "certified.playa_del_carmen.final_word",
+    "image": "img/playa_del_carmen.jpg"
+},
+{
+    "id": 3,
+    "title": "certified.epaves.title",
+    "description": "certified.epaves.description",
+    "highlights": "certified.epaves.highlight",
+    "final_word": "certified.epaves.final_word",
+    "image": "img/epaves.jpg"
+},
+{
+    "id": 4,
+    "title": "certified.formation.title",
+    "description": "certified.formation.description",
+    "highlights": "certified.formation.highlight",
+    "final_word": "certified.formation.final_word",
+    "image": "img/formation.jpg"
+}
+    
+]

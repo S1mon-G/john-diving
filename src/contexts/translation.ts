@@ -202,7 +202,26 @@ export const translations: Record<Language, TranslationObject> = {
         "diving.nohoch.highlight4": "Atmosphère mystique et grandiose",
         "diving.nohoch.final_word": "Nohoch est une plongée spéléo mythique, un voyage dans l’infini souterrain.",
 
+        // certified dive
+        "certified.cozumel.title":'Cozumel',
+        "certified.cozumel.description" : "Déjà certifié et envie d’explorer de nouveaux horizons ? Les récifs de Cozumel font partie des meilleurs sites de plongée au monde, et ils se trouvent à seulement une quarantaine minutes de Playa del Carmen. Classés réserve marine protégée depuis 1979, ces fonds spectaculaires offrent des tombants vertigineux, des jardins coralliens intacts et une incroyable biodiversité",
+        "certified.cozumel.highlight": "Plonger à Cozumel, c’est se laisser porter par un courant doux à la dérive, admirer d’immenses éponges colorées, croiser des tortues majestueuses, des raies aigles et parfois même des requins nourrices. Chaque immersion est différente, mais toujours magique.",
+        "certified.cozumel.final_word": "Que vous soyez passionné de photographie sous-marine, amateur de dérive ou simplement en quête d’émotions fortes, Cozumel vous garantit une expérience inoubliable au cœur d’un des joyaux de la plongée mondiale.",
 
+        "certified.playa_del_carmen.title": "Playa Del Carmen",
+        "certified.playa_del_carmen.description":"À deux pas de la plage, les récifs de Playa del Carmen offrent des plongées riches en couleurs et en vie marine, accessibles directement en bateau en seulement quelques minutes. Ici, pas besoin d’aller loin pour profiter d’une eau turquoise et chaude toute l’année, de coraux éclatants et de poissons tropicaux virevoltant autour de vous.",
+        "certified.playa_del_carmen.highlight":"Chaque plongée révèle son lot de surprises : tortues paisibles, bancs de poissons argentés, langoustes cachées dans les anfractuosités et parfois même le passage furtif d’une raie aigle. Les sites, variés et adaptés à tous les niveaux, permettent aussi bien de faire des plongées tranquilles sur des récifs peu profonds que des immersions plus profondes",
+        "certified.playa_del_carmen.final_word":"Plonger à Playa del Carmen, c’est allier la simplicité d’accès et la richesse d’un récif tropical préservé, dans une ambiance détendue et conviviale, idéale pour profiter pleinement de chaque moment sous l’eau.",
+
+        "certified.epaves.title":"Epaves",
+        "certified.epaves.description":"Envie d’un nouveau défi sous-marin ? Les plongées sur épaves offrent une expérience unique, à mi-chemin entre exploration et aventure. Descendre le long du mouillage et voir peu à peu apparaître la silhouette d’un navire englouti procure un frisson incomparable, même pour les plongeurs déjà expérimentés.",
+        "certified.epaves.highlight":"Les épaves ne sont pas seulement des témoins mystérieux du passé : elles sont devenues de véritables récifs artificiels, recouverts de coraux et peuplés d’une vie marine abondante. Bancs de poissons, barracudas curieux, tortues de passage ou murènes installées dans les structures… chaque recoin réserve une surprise.",
+        "certified.epaves.final_word":"Plonger sur une épave, c’est se challenger un peu plus, sortir de sa zone de confort et ressentir cette excitation particulière qui fait battre le cœur plus vite. Une expérience à part, à vivre absolument pour enrichir son parcours de plongeur.",
+
+        "certified.formation.title":"Formation Continue",
+        "certified.formation.description":"Après votre certification Open Water, une nouvelle aventure vous attend : continuer à progresser et à élargir vos horizons sous-marins. Le cours Advanced Open Water vous permet d’explorer de nouvelles sensations — plonger plus profond (30m), dériver le long de récifs spectaculaires ou découvrir l’excitation des plongées sur épave. Le Rescue Diver, lui, développe vos réflexes et votre confiance, en vous apprenant à prévenir et gérer des situations sous-marines pour devenir un binôme encore plus solide.",
+        "certified.formation.highlight":"Et pour enrichir votre expérience, de nombreuses spécialités s’offrent à vous : la plongée profonde pour descendre jusqu’à 40 mètres, la plongée Nitrox pour profiter de temps fond prolongés, ou encore l’exploration d’épaves pour vivre un frisson unique. Chaque formation est une étape de plus vers l’autonomie, la maîtrise et le plaisir de découvrir l’océan autrement.",
+        "certified.formation.final_word":"Se former en continu, c’est non seulement se challenger, mais aussi s’ouvrir les portes de sites et d’expériences réservés aux plongeurs plus expérimentés. Une progression passionnante pour ceux qui veulent transformer chaque plongée en une nouvelle aventure.",
 
         // // Services
         'services.title': 'NOS SERVICES',

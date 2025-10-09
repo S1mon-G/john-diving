@@ -21,7 +21,7 @@ interface Props {
 function useCenoteData() {
     const [cenoteInfos, setCenoteInfos] = useState<Cenote[]>([]);
     useEffect(() => {
-        fetch("/data/cenotesv2.json")
+        fetch("/data/cenotes.json")
             .then((res) => res.json())
             .then(setCenoteInfos)
             .catch((err) => console.error("Error fetching cenote data:", err));

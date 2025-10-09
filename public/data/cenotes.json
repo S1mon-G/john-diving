@@ -1,257 +1,268 @@
 [
-    {
-        "id": 1,
-        "title": " Chac Mool – Halocline et Lumière Magique à Playa del Carmen",
-        "description": "Plongez dans l’un des cénotes les plus fascinants de la Riviera Maya : Chac Mool. Entre ses jeux de lumière spectaculaires, ses haloclines hypnotisantes et ses dômes d’air ornés de stalactites, cette plongée est un voyage au cœur des merveilles naturelles du Yucatán.",
-        "highlights": [
-            "📍 Localisation : À 20 minutes de Playa del Carmen",
-            "📏 Profondeur max : 14 m",
-            "🎯 Niveau requis : Open Water minimum",
-            "⏳ Durée : 2 plongées d’environ 40-45 minutes chacune"
-        ],
-        "selling_points": [
-            "Halocline unique qui crée un effet visuel magique",
-            "Rayons de lumière qui transpercent la caverne",
-            "Dôme d’air décoré de formations millénaires",
-            "Eau cristalline et visibilité incroyable toute l'année"
-        ],
-        "final_word": "Chac Mool est un cénote qui laisse un souvenir impérissable, même aux plongeurs les plus expérimentés."
-    },
-    {
-        "id": 2,
-        "title": " Dos Ojos – L’Incontournable de Tulum",
-        "description": "Explorez l’un des systèmes de grottes les plus célèbres au monde : Dos Ojos. Ce cénote légendaire, dont le nom signifie “Deux Yeux”, vous invite à plonger dans des tunnels cristallins illuminés par une lumière turquoise magique.",
-        "highlights": [
-            "📍 Localisation : À 40 minutes de Playa Del Carmen",
-            "📏 Profondeur max : 9 m",
-            "🎯 Niveau requis : Open Water minimum",
-            "⏳ Durée : 2 plongées de 40-45 minutes"
-        ],
-        "selling_points": [
-            "Parcours spectaculaire dans l’un des cénotes les plus connus au monde",
-            "Formations stalactites et stalagmites impressionnantes",
-            "Visibilité incroyable toute l’année",
-            "Ambiance féerique idéale pour la photographie sous-marine"
-        ],
-        "final_word": "Dos Ojos est une plongée incontournable pour tous les amateurs de cénotes."
-    },
-    {
-        "id": 3,
-        "title": " Eden – Un Jardin Tropical Sous-Marin",
-        "description": "Le Cénote Eden, aussi connu sous le nom de Ponderosa, est un véritable paradis pour les plongeurs. En surface, un bassin ouvert entouré de jungle tropicale et de nénuphars. Sous l’eau, une visibilité exceptionnelle et un accès vers la célèbre Coral Cavern.",
-        "highlights": [
-            "📍 Localisation : À 25 minutes de Playa del Carmen",
-            "📏 Profondeur max : 15 m",
-            "🎯 Niveau requis : Open Water minimum",
-            "⏳ Durée : 2 plongées de 40-45 minutes"
-        ],
-        "selling_points": [
-            "Eau cristalline et ambiance tropicale",
-            "Halocline subtile pour un effet visuel fascinant",
-            "Passage vers Coral Cavern, riche en formations",
-            "Idéal pour la photographie grand angle"
-        ],
-        "final_word": "Eden est une plongée paisible et colorée, parfaite pour découvrir la magie des cénotes."
-    },
-    {
-        "id": 4,
-        "title": " El Pit – Puits Vertigineux et Halocline Mystique",
-        "description": "Descendez dans l’un des cénotes les plus spectaculaires et profonds de la Riviera Maya. Connu pour sa verticale impressionnante et son rayon de lumière perçant les profondeurs, El Pit offre une expérience inoubliable.",
-        "highlights": [
-            "📍 Localisation : 40 minutes de Playa del Carmen",
-            "📏 Profondeur max : 40 m",
-            "🎯 Niveau requis : Advanced Open Water",
-            "⏳ Durée : 1 plongée (40 minutes)"
-        ],
-        "selling_points": [
-            "Descente verticale unique dans un puits naturel",
-            "Halocline spectaculaire et effets visuels mystiques",
-            "Rayons de lumière descendant jusqu’aux profondeurs",
-            "Sensation de plonger dans l’infini"
-        ],
-        "final_word": "El Pit est une plongée vertigineuse et magique, un must pour les plongeurs confirmés."
-    },
-    {
-        "id": 5,
-        "title": " Angelita – La Rivière de Soufre Souterraine",
-        "description": "Le cénote Angelita est connu pour son nuage de sulfure d’hydrogène qui forme une véritable rivière sous-marine. Un décor surréaliste où l’on a l’impression de voler au-dessus des arbres engloutis.",
-        "highlights": [
-            "📍 Localisation : 20 minutes de Tulum",
-            "📏 Profondeur max : 30-35 m",
-            "🎯 Niveau requis : Advanced Open Water",
-            "⏳ Durée : 1 plongée (40 minutes)"
-        ],
-        "selling_points": [
-            "Nuage épais de sulfure d’hydrogène créant une rivière mystique",
-            "Arbres engloutis sous la couche de soufre",
-            "Ambiance irréelle et hors du commun",
-            "Sensation de plonger dans un autre monde"
-        ],
-        "final_word": "Angelita est une plongée fascinante au cœur d’un décor de science-fiction."
-    },
-    {
-        "id": 6,
-        "title": " Dreamgate – Un Voyage au Cœur des Formations",
-        "description": "Le cénote Dreamgate est un musée naturel de stalactites et stalagmites millénaires. Une plongée magique dans un décor intact et féerique.",
-        "highlights": [
-            "📍 Localisation : 30 minutes de Playa del Carmen",
-            "📏 Profondeur max : 7 m",
-            "🎯 Niveau requis : Open Water Advanced avec bonne maîtrise de la flottabilité",
-            "⏳ Durée : 2 plongées (40 minutes chacune)"
-        ],
-        "selling_points": [
-            "Forêt de stalactites et stalagmites millénaires",
-            "Décor intact et fragile",
-            "Atmosphère de cathédrale sous-marine",
-            "Expérience incontournable pour les amateurs de spéléo"
-        ],
-        "final_word": "Dreamgate est une plongée magique, digne d’une cathédrale sous-marine."
-    },
-    {
-        "id": 7,
-        "title": " Taak Bi Ha – La Cathédrale de Cristal",
-        "description": "Taak Bi Ha est un cénote souterrain spectaculaire, célèbre pour ses formations cristallines et son ambiance de cathédrale.",
-        "highlights": [
-            "📍 Localisation : 40 minutes de Playa del Carmen",
-            "📏 Profondeur max : 7 m",
-            "🎯 Niveau requis : Open Water Advanced avec bonne maîtrise de la flottabilité",
-            "⏳ Durée : 1 plongée (40 minutes)"
-        ],
-        "selling_points": [
-            "Formations cristallines d’une beauté exceptionnelle",
-            "Ambiance de cathédrale souterraine",
-            "Décor fragile et préservé",
-            "Sensation unique de flotter dans un monde féerique"
-        ],
-        "final_word": "Taak Bi Ha est un véritable joyau de la Riviera Maya."
-    },
-    {
-        "id": 8,
-        "title": " Nicte Ha – Jardin Aquatique et Formations Calcaires",
-        "description": "Le cénote Nicte Ha allie jungle et monde souterrain, avec ses nénuphars, sa lumière douce et ses formations calcaires.",
-        "highlights": [
-            "📍 Localisation : 40 minutes de Playa del Carmen",
-            "📏 Profondeur max : 8 m",
-            "🎯 Niveau requis : Open Water",
-            "⏳ Durée : 1 plongée (40 minutes)"
-        ],
-        "selling_points": [
-            "Plongée au milieu des nénuphars et racines immergées",
-            "Lumières naturelles créant une atmosphère unique",
-            "Formations calcaires délicates",
-            "Ambiance paisible et poétique"
-        ],
-        "final_word": "Nicte Ha est une plongée poétique entre jungle et grotte."
-    },
-    {
-        "id": 9,
-        "title": " Carwash – Jungle Verte et Eau Cristalline",
-        "description": "Le cénote Aktun Ha, surnommé Carwash, est connu pour sa surface verte et son ambiance de lagune mystérieuse.",
-        "highlights": [
-            "📍 Localisation : 10 minutes de Tulum",
-            "📏 Profondeur max : 15 m",
-            "🎯 Niveau requis : Open Water",
-            "⏳ Durée : 1 plongée (40 minutes)"
-        ],
-        "selling_points": [
-            "Surface recouverte d’algues en saison",
-            "Racines et branches créant une ambiance jungle",
-            "Formations calcaires et grande clarté de l’eau",
-            "Observation possible de fossiles et vie aquatique"
-        ],
-        "final_word": "Carwash est un cénote sauvage et surprenant."
-    },
-    {
-        "id": 10,
-        "title": "Plongée Casa Cenote – Entre Mangroves et Mer des Caraïbes",
-        "description": "Casa Cenote est unique car il se situe entre jungle et océan, offrant une plongée fascinante parmi les mangroves.",
-        "highlights": [
-            "📍 Localisation : 45 minutes de Playa del Carmen",
-            "📏 Profondeur max : 8 m",
-            "🎯 Niveau requis : Open Water",
-            "⏳ Durée : 1 plongée (40 minutes)"
-        ],
-        "selling_points": [
-            "Exploration parmi les racines de mangroves",
-            "Faune riche (tarpons, poissons, crabes)",
-            "Eau douce connectée à la mer des Caraïbes",
-            "Parfait pour débutants comme confirmés"
-        ],
-        "final_word": "Casa Cenote est une plongée paisible et vivante."
-    },
-    {
-        "id": 11,
-        "title": " Zapote – Les Clochettes de l’Enfer",
-        "description": "Le cénote Zapote, aussi appelé Hell’s Bells, est célèbre pour ses formations calcaires en forme de cloches et son ambiance mystérieuse.",
-        "highlights": [
-            "📍 Localisation : 30 minutes de Playa del Carmen",
-            "📏 Profondeur max : 35 m",
-            "🎯 Niveau requis : Advanced Open Water",
-            "⏳ Durée : 1 plongée (40-45 minutes)"
-        ],
-        "selling_points": [
-            "Formations uniques 'Hell’s Bells'",
-            "Ambiance mystérieuse et hors du commun",
-            "Plongée profonde avec grande visibilité",
-            "Expérience rare dans le monde de la plongée"
-        ],
-        "final_word": "Zapote est une plongée inoubliable et singulière."
-    },
-    {
-        "id": 12,
-        "title": " Maravilla – Le Rayon de Lumière Inoubliable",
-        "description": "Le cénote Maravilla est un immense puits vertical où un rayon de lumière spectaculaire illumine les profondeurs.",
-        "highlights": [
-            "📍 Localisation : 25 minutes de Playa del Carmen",
-            "📏 Profondeur max : 40 m",
-            "🎯 Niveau requis : Advanced Open Water",
-            "⏳ Durée : 1 plongée (40-45 minutes)"
-        ],
-        "selling_points": [
-            "Puits vertical impressionnant",
-            "Rayon de lumière spectaculaire",
-            "Halocline créant des effets visuels étonnants",
-            "Expérience visuelle unique"
-        ],
-        "final_word": "Maravilla est une plongée grandiose et photogénique."
-    },
-    {
-        "id": 13,
-        "title": " Yaakun – Sérénité et Beauté Cachée",
-        "description": "Le cénote Yaakun est un lieu paisible et peu fréquenté, offrant une plongée relaxante au cœur de la nature.",
-        "highlights": [
-            "📍 Localisation : 20 minutes de Playa del Carmen",
-            "📏 Profondeur max : 35 m",
-            "🎯 Niveau requis : Open Water Advanced",
-            "⏳ Durée : 1 plongée (40 minutes)"
-        ],
-        "selling_points": [
-            "Ambiance paisible et moins fréquentée",
-            "Eau cristalline et grande visibilité",
-            "Formations rocheuses intéressantes",
-            "Expérience authentique hors des sentiers battus"
-        ],
-        "final_word": "Yaakun est une plongée sereine et authentique."
-    },
-    {
-        "id": 14,
-        "title": " Nohoch – L’Entrée du Plus Long Système de Grottes",
-        "description": "Le cénote Nohoch Nah Chich est l’entrée du plus vaste système de grottes sous-marines au monde, réservé aux plongeurs expérimentés.",
-        "highlights": [
-            "📍 Localisation : 50 minutes de Playa del Carmen",
-            "📏 Profondeur max : 7 m",
-            "🎯 Niveau requis : Open Water Advanced",
-            "⏳ Durée : 1 plongée (40 minutes)"
-        ],
-        "selling_points": [
-            "Entrée du plus grand système souterrain du monde",
-            "Galeries spectaculaires ornées de stalactites",
-            "Expérience incontournable pour les plongeurs de grotte",
-            "Atmosphère mystique et grandiose"
-        ],
-        "final_word": "Nohoch est une plongée mythique pour les passionnés de spéléo."
-    }
+  {
+    "id": 1,
+    "title": "diving.chacmool.title",
+    "description": "diving.chacmool.description",
+    "highlights": [
+      "diving.chacmool.location",
+      "diving.chacmool.depth",
+      "diving.chacmool.level",
+      "diving.chacmool.duration"
+    ],
+    "selling_points": [
+      "diving.chacmool.highlight1",
+      "diving.chacmool.highlight2",
+      "diving.chacmool.highlight3",
+      "diving.chacmool.highlight4"
+    ],
+    "final_word": "diving.chacmool.final_word",
+    "image": "img/chacmool.jpg"
+  },
+  {
+    "id": 2,
+    "title": "diving.dosojos.title",
+    "description": "diving.dosojos.description",
+    "highlights": [
+      "diving.dosojos.location",
+      "diving.dosojos.depth",
+      "diving.dosojos.level",
+      "diving.dosojos.duration"
+    ],
+    "selling_points": [
+      "diving.dosojos.highlight1",
+      "diving.dosojos.highlight2",
+      "diving.dosojos.highlight3",
+      "diving.dosojos.highlight4"
+    ],
+    "final_word": "diving.dosojos.final_word",
+    "image": "img/dosojos.jpg"
+  },
+  {
+    "id": 3,
+    "title": "diving.eden.title",
+    "description": "diving.eden.description",
+    "highlights": [
+      "diving.eden.location",
+      "diving.eden.depth",
+      "diving.eden.level",
+      "diving.eden.duration"
+    ],
+    "selling_points": [
+      "diving.eden.highlight1",
+      "diving.eden.highlight2",
+      "diving.eden.highlight3",
+      "diving.eden.highlight4"
+    ],
+    "final_word": "diving.eden.final_word",
+    "image": "img/eden.jpg"
+  },
+  {
+    "id": 4,
+    "title": "diving.elpit.title",
+    "description": "diving.elpit.description",
+    "highlights": [
+      "diving.elpit.location",
+      "diving.elpit.depth",
+      "diving.elpit.level",
+      "diving.elpit.duration"
+    ],
+    "selling_points": [
+      "diving.elpit.highlight1",
+      "diving.elpit.highlight2",
+      "diving.elpit.highlight3",
+      "diving.elpit.highlight4"
+    ],
+    "final_word": "diving.elpit.final_word",
+    "image": "img/elpit.jpg"
+  },
+  {
+    "id": 5,
+    "title": "diving.angelita.title",
+    "description": "diving.angelita.description",
+    "highlights": [
+      "diving.angelita.location",
+      "diving.angelita.depth",
+      "diving.angelita.level",
+      "diving.angelita.duration"
+    ],
+    "selling_points": [
+      "diving.angelita.highlight1",
+      "diving.angelita.highlight2",
+      "diving.angelita.highlight3",
+      "diving.angelita.highlight4"
+    ],
+    "final_word": "diving.angelita.final_word",
+    "image": "img/angelita.jpg"
+  },
+  {
+    "id": 6,
+    "title": "diving.dreamgate.title",
+    "description": "diving.dreamgate.description",
+    "highlights": [
+      "diving.dreamgate.location",
+      "diving.dreamgate.depth",
+      "diving.dreamgate.level",
+      "diving.dreamgate.duration"
+    ],
+    "selling_points": [
+      "diving.dreamgate.highlight1",
+      "diving.dreamgate.highlight2",
+      "diving.dreamgate.highlight3",
+      "diving.dreamgate.highlight4"
+    ],
+    "final_word": "diving.dreamgate.final_word",
+    "image": "img/dreamgate.jpg"
+  },
+  {
+    "id": 7,
+    "title": "diving.taakbiha.title",
+    "description": "diving.taakbiha.description",
+    "highlights": [
+      "diving.taakbiha.location",
+      "diving.taakbiha.depth",
+      "diving.taakbiha.level",
+      "diving.taakbiha.duration"
+    ],
+    "selling_points": [
+      "diving.taakbiha.highlight1",
+      "diving.taakbiha.highlight2",
+      "diving.taakbiha.highlight3",
+      "diving.taakbiha.highlight4"
+    ],
+    "final_word": "diving.taakbiha.final_word",
+    "image": "img/taakbiha.jpg"
+  },
+  {
+    "id": 8,
+    "title": "diving.nicteha.title",
+    "description": "diving.nicteha.description",
+    "highlights": [
+      "diving.nicteha.location",
+      "diving.nicteha.depth",
+      "diving.nicteha.level",
+      "diving.nicteha.duration"
+    ],
+    "selling_points": [
+      "diving.nicteha.highlight1",
+      "diving.nicteha.highlight2",
+      "diving.nicteha.highlight3",
+      "diving.nicteha.highlight4"
+    ],
+    "final_word": "diving.nicteha.final_word",
+    "image": "img/nicteha.jpg"
+  },
+  {
+    "id": 9,
+    "title": "diving.carwash.title",
+    "description": "diving.carwash.description",
+    "highlights": [
+      "diving.carwash.location",
+      "diving.carwash.depth",
+      "diving.carwash.level",
+      "diving.carwash.duration"
+    ],
+    "selling_points": [
+      "diving.carwash.highlight1",
+      "diving.carwash.highlight2",
+      "diving.carwash.highlight3",
+      "diving.carwash.highlight4"
+    ],
+    "final_word": "diving.carwash.final_word",
+    "image": "img/carwash.jpg"
+  },
+  {
+    "id": 10,
+    "title": "diving.casacenote.title",
+    "description": "diving.casacenote.description",
+    "highlights": [
+      "diving.casacenote.location",
+      "diving.casacenote.depth",
+      "diving.casacenote.level",
+      "diving.casacenote.duration"
+    ],
+    "selling_points": [
+      "diving.casacenote.highlight1",
+      "diving.casacenote.highlight2",
+      "diving.casacenote.highlight3",
+      "diving.casacenote.highlight4"
+    ],
+    "final_word": "diving.casacenote.final_word",
+    "image": "img/casacenote.jpg"
+  },
+  {
+    "id": 11,
+    "title": "diving.zapote.title",
+    "description": "diving.zapote.description",
+    "highlights": [
+      "diving.zapote.location",
+      "diving.zapote.depth",
+      "diving.zapote.level",
+      "diving.zapote.duration"
+    ],
+    "selling_points": [
+      "diving.zapote.highlight1",
+      "diving.zapote.highlight2",
+      "diving.zapote.highlight3",
+      "diving.zapote.highlight4"
+    ],
+    "final_word": "diving.zapote.final_word",
+    "image": "img/zapote.jpg"
+  },
+  {
+    "id": 12,
+    "title": "diving.maravilla.title",
+    "description": "diving.maravilla.description",
+    "highlights": [
+      "diving.maravilla.location",
+      "diving.maravilla.depth",
+      "diving.maravilla.level",
+      "diving.maravilla.duration"
+    ],
+    "selling_points": [
+      "diving.maravilla.highlight1",
+      "diving.maravilla.highlight2",
+      "diving.maravilla.highlight3",
+      "diving.maravilla.highlight4"
+    ],
+    "final_word": "diving.maravilla.final_word",
+    "image": "img/maravilla.jpg"
+  },
+  {
+    "id": 13,
+    "title": "diving.yaakun.title",
+    "description": "diving.yaakun.description",
+    "highlights": [
+      "diving.yaakun.location",
+      "diving.yaakun.depth",
+      "diving.yaakun.level",
+      "diving.yaakun.duration"
+    ],
+    "selling_points": [
+      "diving.yaakun.highlight1",
+      "diving.yaakun.highlight2",
+      "diving.yaakun.highlight3",
+      "diving.yaakun.highlight4"
+    ],
+    "final_word": "diving.yaakun.final_word",
+    "image": "img/yaakun.jpg"
+  },
+  {
+    "id": 14,
+    "title": "diving.nohoch.title",
+    "description": "diving.nohoch.description",
+    "highlights": [
+      "diving.nohoch.location",
+      "diving.nohoch.depth",
+      "diving.nohoch.level",
+      "diving.nohoch.duration"
+    ],
+    "selling_points": [
+      "diving.nohoch.highlight1",
+      "diving.nohoch.highlight2",
+      "diving.nohoch.highlight3",
+      "diving.nohoch.highlight4"
+    ],
+    "final_word": "diving.nohoch.final_word",
+    "image": "img/nohoch.jpg"
+  }
 ]
-
-
-    
