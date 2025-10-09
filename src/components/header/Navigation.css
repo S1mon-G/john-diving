@@ -5,6 +5,8 @@
     background-color: black;
     display: flex;
     justify-content: space-evenly;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
 }
 
 .nav-container {

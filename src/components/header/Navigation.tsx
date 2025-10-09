@@ -22,7 +22,7 @@ const Navigation = () => {
     return (
         <nav className="navbar">
             <div className="nav-container">
-                <img src="../../../public/img/jd-logo.png" alt="John diving logo" className='logo' />
+                <img src="/img/jd-logo.png" alt="John diving logo" className='logo' />
 
                 <div className="nav-links">
                     <a href="#accueil" className="nav-link">{t('nav.home')}</a>
@@ -69,7 +69,7 @@ const Navigation = () => {
                     </div>
                 </div>
 
-                {/* Mobile menu button */}
+
                 <button
                     className="mobile-menu-button"
                     onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -78,7 +78,7 @@ const Navigation = () => {
                 </button>
             </div>
 
-            {/* Mobile menu */}
+
             {mobileMenuOpen && (
                 <>
                     <div className="mobile-menu">
