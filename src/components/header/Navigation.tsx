@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { ChevronDown, Globe, Menu, X } from 'lucide-react';
 import { useLanguage } from '../../contexts/LanguageContext';
 import CenoteModale from '../../components/modales/cenoteModale';
@@ -12,6 +12,7 @@ const Navigation = () => {
     const [openModal, setOpenModal] = useState<string | null>(null);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const { currentLanguage, setLanguage, t } = useLanguage();
+    const navRef = useRef<HTMLDivElement>(null);
 
     const languages = [
         { code: 'fr' as const, flag: '🇫🇷', name: 'Français' },
@@ -23,8 +24,28 @@ const Navigation = () => {
         setActiveDropdown(activeDropdown === dropdown ? null : dropdown);
     };
 
+    useEffect(() => {
+        const handleClickOutside = (event: MouseEvent) => {
+            if (navRef.current && !navRef.current.contains(event.target as Node)) {
+                setActiveDropdown(null);
+            }
+        };
+
+        const handleScroll = () => {
+            setActiveDropdown(null);
+        };
+
+        document.addEventListener('click', handleClickOutside);
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            document.removeEventListener('click', handleClickOutside);
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
-        <nav className="navbar">
+        <nav className="navbar" ref={navRef}>
             <div className="nav-container">
 
 

@@ -1,21 +1,33 @@
-*{
+* {
   margin: 0;
   box-sizing: border-box;
 }
 
 body {
   background-color: black;
+  font-family: var(--main-font);
 }
 
-h1, h2, h3, h4, h5, h6, p, span, div, a, li, ul {
-  font-family: var(--main-font);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+div,
+a,
+li,
+ul {
+
   color: var(--main-font-color);
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-li{
+li {
   list-style: none;
 }
