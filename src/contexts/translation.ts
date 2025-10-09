@@ -446,6 +446,30 @@ export const translations: Record<Language, TranslationObject> = {
         "diving.nohoch.highlight4": "Ambiente místico e impresionante",
         "diving.nohoch.final_word": "Nohoch es una inmersión legendaria en el mundo de la espeleología.",
 
+        // certified dive
+
+        
+        "certified.cozumel.title": "Cozumel",
+        "certified.cozumel.description": "¿Ya estás certificado y con ganas de explorar nuevos horizontes? Los arrecifes de Cozumel se encuentran entre los mejores sitios de buceo del mundo, a solo unos cuarenta minutos de Playa del Carmen. Declarados reserva marina protegida desde 1979, estos fondos espectaculares ofrecen paredes vertiginosas, jardines de coral intactos y una biodiversidad increíble.",
+        "certified.cozumel.highlight": "Bucear en Cozumel es dejarse llevar por una suave corriente, admirar enormes esponjas coloridas, cruzarse con majestuosas tortugas, rayas águila y, a veces, incluso tiburones nodriza. Cada inmersión es diferente, pero siempre mágica.",
+        "certified.cozumel.final_word": "Ya seas un apasionado de la fotografía submarina, amante del buceo a la deriva o simplemente estés buscando emociones fuertes, Cozumel te garantiza una experiencia inolvidable en el corazón de una de las joyas del buceo mundial.",
+
+        "certified.playa_del_carmen.title": "Playa Del Carmen",
+        "certified.playa_del_carmen.description": "A pocos pasos de la playa, los arrecifes de Playa del Carmen ofrecen inmersiones llenas de color y vida marina, accesibles directamente en barco en solo unos minutos. No hace falta ir lejos para disfrutar de aguas turquesas y cálidas todo el año, corales vibrantes y peces tropicales que giran a tu alrededor.",
+        "certified.playa_del_carmen.highlight": "Cada inmersión revela sus propias sorpresas: tortugas tranquilas, bancos de peces plateados, langostas escondidas en las grietas y, a veces, el paso fugaz de una raya águila. Los sitios, variados y adaptados a todos los niveles, permiten tanto buceos tranquilos en arrecifes poco profundos como inmersiones más profundas.",
+        "certified.playa_del_carmen.final_word": "Bucear en Playa del Carmen combina la facilidad de acceso con la riqueza de un arrecife tropical bien conservado, en un ambiente relajado y acogedor, ideal para disfrutar al máximo cada momento bajo el agua.",
+
+        "certified.epaves.title": "Pecios",
+        "certified.epaves.description": "¿Buscas un nuevo desafío submarino? Las inmersiones en pecios ofrecen una experiencia única, a medio camino entre la exploración y la aventura. Descender por la línea de fondeo y ver poco a poco la silueta de un barco hundido produce una emoción incomparable, incluso para buceadores experimentados.",
+        "certified.epaves.highlight": "Los pecios no son solo testigos misteriosos del pasado: se han convertido en verdaderos arrecifes artificiales cubiertos de corales y habitados por una abundante vida marina. Bancos de peces, barracudas curiosas, tortugas de paso o morenas instaladas en las estructuras… cada rincón guarda una sorpresa.",
+        "certified.epaves.final_word": "Bucear en un pecio es superarse un poco más, salir de la zona de confort y sentir esa emoción especial que acelera el corazón. Una experiencia única que todo buceador debería vivir al menos una vez.",
+
+        "certified.formation.title": "Formación Continua",
+        "certified.formation.description": "Después de tu certificación Open Water, te espera una nueva aventura: seguir progresando y ampliar tus horizontes submarinos. El curso Advanced Open Water te permite explorar nuevas sensaciones: bucear más profundo (30 m), derivar a lo largo de arrecifes espectaculares o descubrir la emoción de los pecios. El curso Rescue Diver desarrolla tus reflejos y tu confianza, enseñándote a prevenir y manejar situaciones bajo el agua para convertirte en un compañero de buceo más sólido.",
+        "certified.formation.highlight": "Y para enriquecer tu experiencia, tienes muchas especialidades disponibles: el buceo profundo para descender hasta 40 metros, el buceo con Nitrox para disfrutar de más tiempo de fondo o la exploración de pecios para vivir una emoción única. Cada formación es un paso más hacia la autonomía, el dominio y el placer de descubrir el océano de otra manera.",
+        "certified.formation.final_word": "Formarse continuamente no solo es un desafío personal, sino también una puerta abierta a sitios y experiencias reservadas a buceadores más experimentados. Una progresión apasionante para quienes desean convertir cada inmersión en una nueva aventura.",
+    
+
 
         // Services
         'services.title': 'NUESTROS SERVICIOS',
@@ -607,6 +631,29 @@ export const translations: Record<Language, TranslationObject> = {
         "diving.kankirixche.highlight3": "Clear water with great visibility",
         "diving.kankirixche.highlight4": "Perfect for adventurous divers",
         "diving.kankirixche.final_word": "Kankirixche is an exhilarating dive for those seeking excitement in the cenotes.",
+
+        // certified dive
+
+        
+        "certified.cozumel.title": "Cozumel",
+        "certified.cozumel.description": "Already certified and eager to explore new horizons? The reefs of Cozumel are among the best diving sites in the world, located just about forty minutes from Playa del Carmen. Designated a protected marine reserve since 1979, these spectacular underwater landscapes offer breathtaking drop-offs, pristine coral gardens, and incredible biodiversity.",
+        "certified.cozumel.highlight": "Diving in Cozumel means drifting along with a gentle current, admiring giant colorful sponges, encountering majestic turtles, eagle rays, and sometimes even nurse sharks. Each dive is different, but always magical.",
+        "certified.cozumel.final_word": "Whether you’re passionate about underwater photography, a drift diving enthusiast, or simply seeking strong emotions, Cozumel guarantees an unforgettable experience in the heart of one of the world’s diving jewels.",
+
+        "certified.playa_del_carmen.title": "Playa Del Carmen",
+        "certified.playa_del_carmen.description": "Just steps from the beach, the reefs of Playa del Carmen offer colorful dives full of marine life, accessible directly by boat in just a few minutes. There’s no need to go far to enjoy warm turquoise waters all year round, vibrant corals, and tropical fish swirling around you.",
+        "certified.playa_del_carmen.highlight": "Each dive reveals its own surprises: peaceful turtles, shimmering schools of fish, lobsters hiding in crevices, and sometimes even a fleeting eagle ray. The sites, varied and suitable for all levels, allow for both calm shallow reef dives and deeper immersions.",
+        "certified.playa_del_carmen.final_word": "Diving in Playa del Carmen combines easy access with the richness of a preserved tropical reef, in a relaxed and friendly atmosphere—perfect for enjoying every moment underwater.",
+
+        "certified.epaves.title": "Wrecks",
+        "certified.epaves.description": "Looking for a new underwater challenge? Wreck diving offers a unique experience, halfway between exploration and adventure. Descending along the mooring line and slowly seeing the silhouette of a sunken ship appear gives an incomparable thrill, even for experienced divers.",
+        "certified.epaves.highlight": "Wrecks are not only mysterious witnesses of the past; they have become real artificial reefs covered with corals and teeming with abundant marine life. Schools of fish, curious barracudas, passing turtles, or moray eels hiding within the structures—every corner holds a surprise.",
+        "certified.epaves.final_word": "Diving on a wreck is about pushing yourself further, stepping out of your comfort zone, and feeling that special excitement that makes your heart beat faster. A unique experience that every diver should live at least once.",
+
+        "certified.formation.title": "Continued Training",
+        "certified.formation.description": "After your Open Water certification, a new adventure awaits: continuing to progress and expand your underwater horizons. The Advanced Open Water course lets you explore new sensations—dive deeper (30m), drift along spectacular reefs, or discover the thrill of wreck diving. The Rescue Diver course develops your reflexes and confidence, teaching you to prevent and manage underwater situations to become an even stronger dive buddy.",
+        "certified.formation.highlight": "To enrich your experience, many specialties are available: deep diving to descend to 40 meters, Nitrox diving for longer bottom times, or wreck exploration for a unique thrill. Each course is another step toward autonomy, mastery, and the joy of discovering the ocean differently.",
+        "certified.formation.final_word": "Continuing your training means challenging yourself while unlocking access to sites and experiences reserved for more advanced divers. A thrilling progression for those who want to turn every dive into a new adventure.",
 
 
         // Services
