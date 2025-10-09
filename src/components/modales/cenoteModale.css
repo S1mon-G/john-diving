@@ -12,6 +12,14 @@
     background-color: var(--modale-background-color);
 }
 
+.closing-button {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    position: fixed;
+    margin-right: 2em;
+}
+
 .close {
     cursor: pointer;
     font-size: 2em;

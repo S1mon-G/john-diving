@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import { useLanguage } from "../../contexts/LanguageContext"
-import "./firstDvieModal.css"
+import "./firstDiveModale.css"
+import "./modale.css"
 
 interface Props {
     isOpen: boolean;
@@ -35,9 +36,10 @@ export default function FirstDiveModale({ isOpen, onClose }: Props) {
         <>
             <section className="dive-card-wrapper">
                 <article className="dive-card">
-                    <p className="close" onClick={onClose}>
+
+                    <button className="close" onClick={onClose} aria-label="Close">
                         &times;
-                    </p>
+                    </button>
 
                     {firstDives.map((firstDive) => (
                         <div key={firstDive.id} className="dive-infos">

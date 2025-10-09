@@ -1,5 +1,6 @@
 import { useLanguage } from "../../contexts/LanguageContext";
 import { useEffect, useState } from "react";
+import "./modale.css"
 
 interface Props {
     isOpen: boolean;
@@ -32,18 +33,20 @@ export default function CertifiedDiverModale({ isOpen, onClose }: Props) {
 
     return (
         <>
-            <section>
-                <article>
-                    <p className="close" onClick={onClose}>
+            <section className="dive-card-wrapper">
+                <article className="dive-card">
+                    <button className="close" onClick={onClose} aria-label="Close">
                         &times;
-                    </p>
+                    </button>
 
                     {certifiedDives.map((certifiedDive) => (
-                        <div key={certifiedDive.id}>
-                            <h2>{t(certifiedDive.title)}</h2>
-                            <p>{t(certifiedDive.description)}</p>
-                            <p>{t(certifiedDive.highlights)}</p>
-                            <p>{t(certifiedDive.final_word)}</p>
+                        <div key={certifiedDive.id} className="dive-infos">
+                            <div className="dive-card-left">
+                                <h2>{t(certifiedDive.title)}</h2>
+                                <p>{t(certifiedDive.description)}</p>
+                                <p>{t(certifiedDive.highlights)}</p>
+                                <p>{t(certifiedDive.final_word)}</p>
+                            </div>
                         </div>
                     ))}
                 </article>

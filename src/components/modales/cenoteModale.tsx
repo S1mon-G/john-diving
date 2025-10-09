@@ -37,9 +37,9 @@ export default function CenoteModale({ isOpen, onClose }: Props) {
     return (
         <section className="cenote-card-wrapper">
             <article className="cenote-card">
-                <p className="close" onClick={onClose}>
+                <button className="close" onClick={onClose} aria-label="Close">
                     &times;
-                </p>
+                </button>
 
                 {cenoteInfos.map((cenote) => (
                     <div key={cenote.id} className="cenote-infos">

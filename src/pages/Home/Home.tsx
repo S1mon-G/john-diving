@@ -7,7 +7,7 @@ import { useState } from 'react';
 import { useLanguage } from '../../contexts/LanguageContext';
 
 export default function Home() {
-  const [openModal, setOpenModal] = useState(null);
+  const [openModal, setOpenModal] = useState<string | null>(null);
   const { t } = useLanguage();
 
   return (
