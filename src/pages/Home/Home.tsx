@@ -19,6 +19,7 @@ export default function Home() {
 
       <section className="about">
         <article className="about-intro">
+          <img src="/public/img/jd-about.JPG" alt="john diving instructor introduction" className="about-picture" />
           <p>
             {t('about.introduction')} <br />{t('about.description')}
           </p>

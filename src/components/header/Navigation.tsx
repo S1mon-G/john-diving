@@ -1,11 +1,15 @@
 import { useState } from 'react';
 import { ChevronDown, Globe, Menu, X } from 'lucide-react';
 import { useLanguage } from '../../contexts/LanguageContext';
+import CenoteModale from '../../components/modales/cenoteModale';
+import FirstDiveModale from '../../components/modales/firstDiveModale';
+import CertifiedDiverModale from '../../components/modales/certifiedModale';
 import './Navigation.css';
 
 
 const Navigation = () => {
     const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+    const [openModal, setOpenModal] = useState<string | null>(null);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const { currentLanguage, setLanguage, t } = useLanguage();
 
@@ -22,7 +26,7 @@ const Navigation = () => {
     return (
         <nav className="navbar">
             <div className="nav-container">
-                <img src="/img/jd-logo.png" alt="John diving logo" className='logo' />
+
 
                 <div className="nav-links">
                     <a href="#accueil" className="nav-link">{t('nav.home')}</a>
@@ -34,13 +38,21 @@ const Navigation = () => {
                         </button>
                         {activeDropdown === 'plongees' && (
                             <div className="dropdown-menu">
-                                <a href="#premieres" className="dropdown-item">{t('nav.diving.beginners')}</a>
-                                <a href="#certifies" className="dropdown-item">{t('nav.diving.certified')}</a>
-                                <a href="#cenotes" className="dropdown-item">{t('nav.diving.cenotes')}</a>
+                                <a href="#premieres" className="dropdown-item" onClick={() => setOpenModal('firstDive')}>{t('nav.diving.beginners')}</a>
+                                <a href="#certifies" className="dropdown-item" onClick={() => setOpenModal('expert')}>{t('nav.diving.certified')}</a>
+                                <a href="#cenotes" className="dropdown-item" onClick={() => setOpenModal('cenote')}>{t('nav.diving.cenotes')}</a>
+                                {openModal === 'firstDive' && (
+                                    <FirstDiveModale isOpen onClose={() => setOpenModal(null)} />
+                                )} {openModal === 'cenote' && (
+                                    <CenoteModale isOpen onClose={() => setOpenModal(null)} />
+                                )}
+                                {openModal === 'expert' &&
+                                    <CertifiedDiverModale isOpen onClose={() => setOpenModal(null)} />}
                             </div>
+
                         )}
                     </div>
-
+                    <img src="/img/jd-logo.png" alt="John diving logo" className='logo' />
                     <a href="#playadelcarmen" className="nav-link">{t('nav.playadelcarmen')}</a>
                     <a href="#contact" className="nav-link">{t('nav.contact')}</a>
 
@@ -123,6 +135,7 @@ const Navigation = () => {
                     </div>
 
                     <div className="backdrop" onClick={() => setMobileMenuOpen(false)} />
+
                 </>
             )}
         </nav>
