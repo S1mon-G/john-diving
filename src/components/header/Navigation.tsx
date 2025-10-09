@@ -73,7 +73,7 @@ const Navigation = () => {
 
                         )}
                     </div>
-                    <img src="/img/jd-logo.png" alt="John diving logo" className='logo' />
+                    <img src="/img/jd-logo.webp" alt="John diving logo" className='logo' />
                     <a href="#playadelcarmen" className="nav-link">{t('nav.playadelcarmen')}</a>
                     <a href="#contact" className="nav-link">{t('nav.contact')}</a>
 
