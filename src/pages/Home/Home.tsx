@@ -19,7 +19,7 @@ export default function Home() {
 
       <section className="about">
         <article className="about-intro">
-          <img src="/public/img/jd-about.webp" alt="john diving instructor introduction" className="about-picture" />
+          <img src="/img/jd-about.webp" alt="john diving instructor introduction" className="about-picture" />
           <p>
             {t('about.introduction')} <br />{t('about.description')}
           </p>
@@ -33,21 +33,21 @@ export default function Home() {
 
           <article onClick={() => setOpenModal('firstDive')}>
             <div className="divings-img-wrapper">
-              <img src="/img/divings-cards-first-dive.webp" alt="first dives" />
+              <img src="/img/divings-cards-first-dive.webp" alt="first dives" loading="lazy" />
               <h3>{t('diving.beginners')}</h3>
             </div>
           </article>
 
           <article onClick={() => setOpenModal('expert')}>
             <div className="divings-img-wrapper">
-              <img src="/img/divings-cards-exp.webp" alt="experimented dives" />
+              <img src="/img/divings-cards-exp.webp" alt="experimented dives" loading="lazy" />
               <h3>{t('diving.certified')}</h3>
             </div>
           </article>
 
           <article onClick={() => setOpenModal('cenote')}>
             <div className="divings-img-wrapper">
-              <img src="/img/divings-cards-cenote.webp" alt="cenote exploration" />
+              <img src="/img/divings-cards-cenote.webp" alt="cenote exploration" loading="lazy" />
               <h3>{t('diving.cenotes')}</h3>
             </div>
           </article>
@@ -68,21 +68,21 @@ export default function Home() {
         <div className="service-cards">
           <article>
             <div className="img-wrapper">
-              <img src="/img/service-perso.webp" alt="personalized service" />
+              <img src="/img/service-perso.webp" alt="personalized service" loading="lazy" />
             </div>
             <h3>{t('services.personalized')}</h3>
             <p>{t('services.personalized.desc')}</p>
           </article>
           <article>
             <div className="img-wrapper">
-              <img src="/img/service-certif.webp" alt="certifiying diving" />
+              <img src="/img/service-certif.webp" alt="certifiying diving" loading="lazy" />
             </div>
             <h3>{t('services.training')}</h3>
             <p>{t('services.training.desc')}</p>
           </article>
           <article>
             <div className="img-wrapper">
-              <img src="/img/service-multi.webp" alt="multilingual service" />
+              <img src="/img/service-multi.webp" alt="multilingual service" loading="lazy" />
             </div>
             <h3>{t('services.multilingual')}</h3>
             <p>{t('services.multilingual.desc')}</p>
