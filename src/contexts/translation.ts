@@ -32,6 +32,18 @@ export const translations: Record<Language, TranslationObject> = {
         'diving.cenotes': 'EXPLORATION DES CENOTES',
 
         // Diving Details
+
+        "first_dive.dsd.title":"DSD - Decouvrez la plongée",
+        "first_dive.dsd.description":"Vous n’avez jamais plongé et rêvez de découvrir ce monde fascinant sous la surface ? Playa del Carmen est l’endroit idéal pour vivre votre première expérience ! Après une courte initiation simple et rassurante en piscine, vous vous laisserez glisser dans les eaux chaudes et cristallines des Caraïbes, accompagné pas à pas par un instructeur certifié qui sera à vos côtés à chaque instant.",
+        "first_dive.dsd.highlights":"Sous l’eau, un tout nouvel univers s’ouvre à vous : poissons tropicaux aux couleurs éclatantes, coraux majestueux et la sensation magique de flotter en apesanteur. Pas besoin d’expérience préalable ni de compétences particulières : ce baptême de plongée est conçu spécialement pour les débutants absolus, afin de vous offrir une aventure inoubliable en toute sécurité.",
+        "first_dive.dsd.final_word":"Venez vivre ce premier pas vers le monde sous-marin et repartez avec des souvenirs uniques que vous n’oublierez jamais !",
+        
+        "first_dive.ow.title":"PADI - Open Water",
+        "first_dive.ow.description":"Vous avez adoré votre première plongée et vous rêvez maintenant d’aller plus loin ? Le cours Open Water PADI est la porte d’entrée vers la liberté sous-marine : en seulement quelques jours, vous apprendrez toutes les bases pour plonger en toute sécurité, partout dans le monde.",
+        "first_dive.ow.highlights":"L’enseignement se fait en petits groupes (maximum 4), avec une attention personnalisée, du matériel récent et des procédures de sécurité claires, pour que chacun progresse à son rythme.",
+        "first_dive.ow.final_word":"À l’issue du cours, vous repartirez avec une certification reconnue mondialement et la confiance nécessaire pour explorer les fonds marins aux quatre coins du monde. Un apprentissage sérieux, rassurant et joyeux. Et quel meilleur endroit pour franchir ce cap qu’à Playa del Carmen, au cœur des récifs colorés et des eaux turquoise ?",
+
+
         "diving.title.highlight": "Points Forts",
         "diving.title.dive": "Pourquoi Plonger ici ?",
 

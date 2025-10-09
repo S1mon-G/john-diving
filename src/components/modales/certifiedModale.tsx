@@ -20,13 +20,13 @@ function useCertifiedDiveData() {
         fetch("/data/certified_dive.json")
             .then((res) => res.json())
             .then(setCertifiedDiveInfos)
-            .catch((err) => console.error("Error fetching cenote data:", err));
+            .catch((err) => console.error("Error fetching certufied dive data:", err));
     }, []);
     return certifiedDiveInfos;
 }
 
 export default function CertifiedDiverModale({ isOpen, onClose }: Props) {
-    const certifiedDiveInfos = useCertifiedDiveData();
+    const certifiedDives = useCertifiedDiveData();
     const { t } = useLanguage();
     if (!isOpen) return null;
 
@@ -38,7 +38,7 @@ export default function CertifiedDiverModale({ isOpen, onClose }: Props) {
                         &times;
                     </p>
 
-                    {certifiedDiveInfos.map((certifiedDive) => (
+                    {certifiedDives.map((certifiedDive) => (
                         <div key={certifiedDive.id}>
                             <h2>{t(certifiedDive.title)}</h2>
                             <p>{t(certifiedDive.description)}</p>
