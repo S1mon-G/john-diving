@@ -70,7 +70,7 @@ export default function CenoteModale({ isOpen, onClose }: Props) {
 
                         <div className="cenote-right">
                             <img
-                                src="img/jd-cenote-test.JPG"
+                                src="img/jd-cenote-test.webp"
                                 alt={cenote.title}
                             />
                         </div>
