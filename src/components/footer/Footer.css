@@ -1,0 +1,40 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 3em;
+    border-top: 1px solid white;
+}
+
+.logo-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+.social-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2em;
+    column-gap: 1em;
+    justify-items: center;
+}
+
+.privacy {
+    grid-column: span 3;
+}
+
+.contact-icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2em;
+}
+
+.contact-icons a {
+    justify-self: center;
+}
+
+.contact-icons p {
+    grid-column: span 2
+}
