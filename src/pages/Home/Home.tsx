@@ -66,21 +66,21 @@ export default function Home() {
       <section className="services">
         <h2>{t('services.title')}</h2>
         <div className="service-cards">
-          <article>
+          <article className="service-card">
             <div className="img-wrapper">
               <img src="/img/service-perso.webp" alt="personalized service" loading="lazy" />
             </div>
             <h3>{t('services.personalized')}</h3>
             <p>{t('services.personalized.desc')}</p>
           </article>
-          <article>
+          <article className="service-card">
             <div className="img-wrapper">
               <img src="/img/service-certif.webp" alt="certifiying diving" loading="lazy" />
             </div>
             <h3>{t('services.training')}</h3>
             <p>{t('services.training.desc')}</p>
           </article>
-          <article>
+          <article className="service-card">
             <div className="img-wrapper">
               <img src="/img/service-multi.webp" alt="multilingual service" loading="lazy" />
             </div>

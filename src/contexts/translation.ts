@@ -242,11 +242,11 @@ export const translations: Record<Language, TranslationObject> = {
         // // Services
         'services.title': 'NOS SERVICES',
         'services.personalized': 'SERVICE PERSONNALISÉ',
-        'services.personalized.desc': 'Organisez une sortie sur-mesure, selon votre niveau de plongée et vos envies. Nos instructeurs expérimentés vous accompagnent dans vos plongées pour une expérience inoubliable.',
-        'services.training': 'FORMATIONS DIPLOMANTES',
+        'services.personalized.desc': 'Organisez une sortie sur-mesure, selon votre niveau de plongée et vos envies.',
+        'services.training': 'FORMATIONS CERTIFIANTES',
         'services.training.desc': 'Profitez de votre séjour pour commencer votre formation ou valider des acquis',
         'services.multilingual': 'SERVICES MULTILINGUES',
-        'services.multilingual.desc': 'Notre équipe parle français, espagnol et anglais pour vous accompagner dans votre langue maternelle tout au long de votre aventure sous-marine.',
+        'services.multilingual.desc': 'Notre équipe parle français, espagnol et anglais pour vous accompagner dans votre aventure sous-marine.',
 
         // // Spot Section
         // 'spot.title': 'NOTRE SPOT DU MOMENT',
@@ -494,11 +494,11 @@ export const translations: Record<Language, TranslationObject> = {
         // Services
         'services.title': 'NUESTROS SERVICIOS',
         'services.personalized': 'SERVICIO PERSONALIZADO',
-        'services.personalized.desc': 'Organiza una salida a medida según tu nivel de buceo y tus preferencias. Nuestros instructores experimentados te acompañan durante tus inmersiones para una experiencia inolvidable.',
+        'services.personalized.desc': 'Organiza una salida a medida según tu nivel de buceo y tus preferencias.',
         'services.training': 'CURSOS DE CERTIFICACIÓN',
         'services.training.desc': 'Aprovecha tu estancia para iniciar tu formación o validar tus competencias.',
         'services.multilingual': 'SERVICIOS MULTILINGÜES',
-        'services.multilingual.desc': 'Nuestro equipo habla francés, español e inglés para acompañarte en tu idioma nativo durante toda tu aventura submarina.',
+        'services.multilingual.desc': 'Nuestro equipo habla francés, español e inglés para acompañarte en tu aventura submarina.',
 
         // // Spot Section
         // 'spot.title': 'NUESTRO LUGAR DEL MOMENTO',
@@ -683,11 +683,11 @@ export const translations: Record<Language, TranslationObject> = {
         // Services
         'services.title': 'OUR SERVICES',
         'services.personalized': 'PERSONALIZED SERVICE',
-        'services.personalized.desc': 'Organize a tailor-made trip according to your diving level and preferences. Our experienced instructors accompany you during your dives for an unforgettable experience.',
+        'services.personalized.desc': 'Organize a tailor-made trip according to your diving level and preferences.',
         'services.training': 'CERTIFICATION COURSES',
         'services.training.desc': 'Take advantage of your stay to start your training or validate your skills.',
         'services.multilingual': 'MULTILINGUAL SERVICES',
-        'services.multilingual.desc': 'Our team speaks French, Spanish, and English to assist you in your native language throughout your underwater adventure.',
+        'services.multilingual.desc': 'Our team speaks French, Spanish, and English to assist you in your underwater adventure.',
 
         // // Spot Section
         // 'spot.title': 'OUR CURRENT SPOT',
