@@ -16,6 +16,10 @@ export const translations: Record<Language, TranslationObject> = {
         'nav.playadelcarmen': 'Playa del Carmen',
         'nav.contact': 'Contact',
 
+        // Whatsapp Button
+        'whatsapp.phone': 'https://wa.me/5219842386761',
+        'whatsapp.contact': 'nous contacter',
+
         // Hero
         'hero.title': 'PLONGEZ DANS\nLA RIVIERA MAYA',
 
@@ -23,7 +27,7 @@ export const translations: Record<Language, TranslationObject> = {
         // About
         'about.title': 'QUI SOMMES-NOUS',
         'about.introduction': "Je suis John, instructeur de plongée et guide en cénote dans la Riviera Maya depuis plus de 7 ans.",
-        'about.description' : "Je vous emmènerai découvrir les magnifiques fonds marins de Playa del Carmen, Tulum et Cozumel, ainsi que vivre l’expérience des cenotes mystiques et mythiques du Yucatan.",
+        'about.description': "Je vous emmènerai découvrir les magnifiques fonds marins de Playa del Carmen, Tulum et Cozumel, ainsi que vivre l’expérience des cenotes mystiques et mythiques du Yucatan.",
 
         // Diving Section
         'diving.title': 'Nos Plongées',
@@ -33,15 +37,15 @@ export const translations: Record<Language, TranslationObject> = {
 
         // Diving Details
 
-        "first_dive.dsd.title":"DSD - Decouvrez la plongée",
-        "first_dive.dsd.description":"Vous n’avez jamais plongé et rêvez de découvrir ce monde fascinant sous la surface ? Playa del Carmen est l’endroit idéal pour vivre votre première expérience ! Après une courte initiation simple et rassurante en piscine, vous vous laisserez glisser dans les eaux chaudes et cristallines des Caraïbes, accompagné pas à pas par un instructeur certifié qui sera à vos côtés à chaque instant.",
-        "first_dive.dsd.highlights":"Sous l’eau, un tout nouvel univers s’ouvre à vous : poissons tropicaux aux couleurs éclatantes, coraux majestueux et la sensation magique de flotter en apesanteur. Pas besoin d’expérience préalable ni de compétences particulières : ce baptême de plongée est conçu spécialement pour les débutants absolus, afin de vous offrir une aventure inoubliable en toute sécurité.",
-        "first_dive.dsd.final_word":"Venez vivre ce premier pas vers le monde sous-marin et repartez avec des souvenirs uniques que vous n’oublierez jamais !",
-        
-        "first_dive.ow.title":"PADI - Open Water",
-        "first_dive.ow.description":"Vous avez adoré votre première plongée et vous rêvez maintenant d’aller plus loin ? Le cours Open Water PADI est la porte d’entrée vers la liberté sous-marine : en seulement quelques jours, vous apprendrez toutes les bases pour plonger en toute sécurité, partout dans le monde.",
-        "first_dive.ow.highlights":"L’enseignement se fait en petits groupes (maximum 4), avec une attention personnalisée, du matériel récent et des procédures de sécurité claires, pour que chacun progresse à son rythme.",
-        "first_dive.ow.final_word":"À l’issue du cours, vous repartirez avec une certification reconnue mondialement et la confiance nécessaire pour explorer les fonds marins aux quatre coins du monde. Un apprentissage sérieux, rassurant et joyeux. Et quel meilleur endroit pour franchir ce cap qu’à Playa del Carmen, au cœur des récifs colorés et des eaux turquoise ?",
+        "first_dive.dsd.title": "DSD - Decouvrez la plongée",
+        "first_dive.dsd.description": "Vous n’avez jamais plongé et rêvez de découvrir ce monde fascinant sous la surface ? Playa del Carmen est l’endroit idéal pour vivre votre première expérience ! Après une courte initiation simple et rassurante en piscine, vous vous laisserez glisser dans les eaux chaudes et cristallines des Caraïbes, accompagné pas à pas par un instructeur certifié qui sera à vos côtés à chaque instant.",
+        "first_dive.dsd.highlights": "Sous l’eau, un tout nouvel univers s’ouvre à vous : poissons tropicaux aux couleurs éclatantes, coraux majestueux et la sensation magique de flotter en apesanteur. Pas besoin d’expérience préalable ni de compétences particulières : ce baptême de plongée est conçu spécialement pour les débutants absolus, afin de vous offrir une aventure inoubliable en toute sécurité.",
+        "first_dive.dsd.final_word": "Venez vivre ce premier pas vers le monde sous-marin et repartez avec des souvenirs uniques que vous n’oublierez jamais !",
+
+        "first_dive.ow.title": "PADI - Open Water",
+        "first_dive.ow.description": "Vous avez adoré votre première plongée et vous rêvez maintenant d’aller plus loin ? Le cours Open Water PADI est la porte d’entrée vers la liberté sous-marine : en seulement quelques jours, vous apprendrez toutes les bases pour plonger en toute sécurité, partout dans le monde.",
+        "first_dive.ow.highlights": "L’enseignement se fait en petits groupes (maximum 4), avec une attention personnalisée, du matériel récent et des procédures de sécurité claires, pour que chacun progresse à son rythme.",
+        "first_dive.ow.final_word": "À l’issue du cours, vous repartirez avec une certification reconnue mondialement et la confiance nécessaire pour explorer les fonds marins aux quatre coins du monde. Un apprentissage sérieux, rassurant et joyeux. Et quel meilleur endroit pour franchir ce cap qu’à Playa del Carmen, au cœur des récifs colorés et des eaux turquoise ?",
 
 
         "diving.title.highlight": "Points Forts",
@@ -215,25 +219,25 @@ export const translations: Record<Language, TranslationObject> = {
         "diving.nohoch.final_word": "Nohoch est une plongée spéléo mythique, un voyage dans l’infini souterrain.",
 
         // certified dive
-        "certified.cozumel.title":'Cozumel',
-        "certified.cozumel.description" : "Déjà certifié et envie d’explorer de nouveaux horizons ? Les récifs de Cozumel font partie des meilleurs sites de plongée au monde, et ils se trouvent à seulement une quarantaine minutes de Playa del Carmen. Classés réserve marine protégée depuis 1979, ces fonds spectaculaires offrent des tombants vertigineux, des jardins coralliens intacts et une incroyable biodiversité",
+        "certified.cozumel.title": 'Cozumel',
+        "certified.cozumel.description": "Déjà certifié et envie d’explorer de nouveaux horizons ? Les récifs de Cozumel font partie des meilleurs sites de plongée au monde, et ils se trouvent à seulement une quarantaine minutes de Playa del Carmen. Classés réserve marine protégée depuis 1979, ces fonds spectaculaires offrent des tombants vertigineux, des jardins coralliens intacts et une incroyable biodiversité",
         "certified.cozumel.highlight": "Plonger à Cozumel, c’est se laisser porter par un courant doux à la dérive, admirer d’immenses éponges colorées, croiser des tortues majestueuses, des raies aigles et parfois même des requins nourrices. Chaque immersion est différente, mais toujours magique.",
         "certified.cozumel.final_word": "Que vous soyez passionné de photographie sous-marine, amateur de dérive ou simplement en quête d’émotions fortes, Cozumel vous garantit une expérience inoubliable au cœur d’un des joyaux de la plongée mondiale.",
 
         "certified.playa_del_carmen.title": "Playa Del Carmen",
-        "certified.playa_del_carmen.description":"À deux pas de la plage, les récifs de Playa del Carmen offrent des plongées riches en couleurs et en vie marine, accessibles directement en bateau en seulement quelques minutes. Ici, pas besoin d’aller loin pour profiter d’une eau turquoise et chaude toute l’année, de coraux éclatants et de poissons tropicaux virevoltant autour de vous.",
-        "certified.playa_del_carmen.highlight":"Chaque plongée révèle son lot de surprises : tortues paisibles, bancs de poissons argentés, langoustes cachées dans les anfractuosités et parfois même le passage furtif d’une raie aigle. Les sites, variés et adaptés à tous les niveaux, permettent aussi bien de faire des plongées tranquilles sur des récifs peu profonds que des immersions plus profondes",
-        "certified.playa_del_carmen.final_word":"Plonger à Playa del Carmen, c’est allier la simplicité d’accès et la richesse d’un récif tropical préservé, dans une ambiance détendue et conviviale, idéale pour profiter pleinement de chaque moment sous l’eau.",
+        "certified.playa_del_carmen.description": "À deux pas de la plage, les récifs de Playa del Carmen offrent des plongées riches en couleurs et en vie marine, accessibles directement en bateau en seulement quelques minutes. Ici, pas besoin d’aller loin pour profiter d’une eau turquoise et chaude toute l’année, de coraux éclatants et de poissons tropicaux virevoltant autour de vous.",
+        "certified.playa_del_carmen.highlight": "Chaque plongée révèle son lot de surprises : tortues paisibles, bancs de poissons argentés, langoustes cachées dans les anfractuosités et parfois même le passage furtif d’une raie aigle. Les sites, variés et adaptés à tous les niveaux, permettent aussi bien de faire des plongées tranquilles sur des récifs peu profonds que des immersions plus profondes",
+        "certified.playa_del_carmen.final_word": "Plonger à Playa del Carmen, c’est allier la simplicité d’accès et la richesse d’un récif tropical préservé, dans une ambiance détendue et conviviale, idéale pour profiter pleinement de chaque moment sous l’eau.",
 
-        "certified.epaves.title":"Epaves",
-        "certified.epaves.description":"Envie d’un nouveau défi sous-marin ? Les plongées sur épaves offrent une expérience unique, à mi-chemin entre exploration et aventure. Descendre le long du mouillage et voir peu à peu apparaître la silhouette d’un navire englouti procure un frisson incomparable, même pour les plongeurs déjà expérimentés.",
-        "certified.epaves.highlight":"Les épaves ne sont pas seulement des témoins mystérieux du passé : elles sont devenues de véritables récifs artificiels, recouverts de coraux et peuplés d’une vie marine abondante. Bancs de poissons, barracudas curieux, tortues de passage ou murènes installées dans les structures… chaque recoin réserve une surprise.",
-        "certified.epaves.final_word":"Plonger sur une épave, c’est se challenger un peu plus, sortir de sa zone de confort et ressentir cette excitation particulière qui fait battre le cœur plus vite. Une expérience à part, à vivre absolument pour enrichir son parcours de plongeur.",
+        "certified.epaves.title": "Epaves",
+        "certified.epaves.description": "Envie d’un nouveau défi sous-marin ? Les plongées sur épaves offrent une expérience unique, à mi-chemin entre exploration et aventure. Descendre le long du mouillage et voir peu à peu apparaître la silhouette d’un navire englouti procure un frisson incomparable, même pour les plongeurs déjà expérimentés.",
+        "certified.epaves.highlight": "Les épaves ne sont pas seulement des témoins mystérieux du passé : elles sont devenues de véritables récifs artificiels, recouverts de coraux et peuplés d’une vie marine abondante. Bancs de poissons, barracudas curieux, tortues de passage ou murènes installées dans les structures… chaque recoin réserve une surprise.",
+        "certified.epaves.final_word": "Plonger sur une épave, c’est se challenger un peu plus, sortir de sa zone de confort et ressentir cette excitation particulière qui fait battre le cœur plus vite. Une expérience à part, à vivre absolument pour enrichir son parcours de plongeur.",
 
-        "certified.formation.title":"Formation Continue",
-        "certified.formation.description":"Après votre certification Open Water, une nouvelle aventure vous attend : continuer à progresser et à élargir vos horizons sous-marins. Le cours Advanced Open Water vous permet d’explorer de nouvelles sensations — plonger plus profond (30m), dériver le long de récifs spectaculaires ou découvrir l’excitation des plongées sur épave. Le Rescue Diver, lui, développe vos réflexes et votre confiance, en vous apprenant à prévenir et gérer des situations sous-marines pour devenir un binôme encore plus solide.",
-        "certified.formation.highlight":"Et pour enrichir votre expérience, de nombreuses spécialités s’offrent à vous : la plongée profonde pour descendre jusqu’à 40 mètres, la plongée Nitrox pour profiter de temps fond prolongés, ou encore l’exploration d’épaves pour vivre un frisson unique. Chaque formation est une étape de plus vers l’autonomie, la maîtrise et le plaisir de découvrir l’océan autrement.",
-        "certified.formation.final_word":"Se former en continu, c’est non seulement se challenger, mais aussi s’ouvrir les portes de sites et d’expériences réservés aux plongeurs plus expérimentés. Une progression passionnante pour ceux qui veulent transformer chaque plongée en une nouvelle aventure.",
+        "certified.formation.title": "Formation Continue",
+        "certified.formation.description": "Après votre certification Open Water, une nouvelle aventure vous attend : continuer à progresser et à élargir vos horizons sous-marins. Le cours Advanced Open Water vous permet d’explorer de nouvelles sensations — plonger plus profond (30m), dériver le long de récifs spectaculaires ou découvrir l’excitation des plongées sur épave. Le Rescue Diver, lui, développe vos réflexes et votre confiance, en vous apprenant à prévenir et gérer des situations sous-marines pour devenir un binôme encore plus solide.",
+        "certified.formation.highlight": "Et pour enrichir votre expérience, de nombreuses spécialités s’offrent à vous : la plongée profonde pour descendre jusqu’à 40 mètres, la plongée Nitrox pour profiter de temps fond prolongés, ou encore l’exploration d’épaves pour vivre un frisson unique. Chaque formation est une étape de plus vers l’autonomie, la maîtrise et le plaisir de découvrir l’océan autrement.",
+        "certified.formation.final_word": "Se former en continu, c’est non seulement se challenger, mais aussi s’ouvrir les portes de sites et d’expériences réservés aux plongeurs plus expérimentés. Une progression passionnante pour ceux qui veulent transformer chaque plongée en une nouvelle aventure.",
 
         // // Services
         'services.title': 'NOS SERVICES',
@@ -271,9 +275,13 @@ export const translations: Record<Language, TranslationObject> = {
         'nav.playadelcarmen': 'Playa del Carmen',
         'nav.contact': 'Contacto',
 
+        //whatsapp button
+        'whatsapp.phone': 'https://wa.me/5219842386761',
+        'whatsapp.contact': 'contáctanos',
+
         // Hero
         'hero.title': 'SUMÉRGETE EN\nLA RIVIERA MAYA',
-    
+
         // About
         'about.title': 'QUIÉNES SOMOS',
         'about.introduction': "Soy John, instructor de buceo y guía de cenotes en la Riviera Maya desde hace más de 7 años.",
@@ -460,7 +468,7 @@ export const translations: Record<Language, TranslationObject> = {
 
         // certified dive
 
-        
+
         "certified.cozumel.title": "Cozumel",
         "certified.cozumel.description": "¿Ya estás certificado y con ganas de explorar nuevos horizontes? Los arrecifes de Cozumel se encuentran entre los mejores sitios de buceo del mundo, a solo unos cuarenta minutos de Playa del Carmen. Declarados reserva marina protegida desde 1979, estos fondos espectaculares ofrecen paredes vertiginosas, jardines de coral intactos y una biodiversidad increíble.",
         "certified.cozumel.highlight": "Bucear en Cozumel es dejarse llevar por una suave corriente, admirar enormes esponjas coloridas, cruzarse con majestuosas tortugas, rayas águila y, a veces, incluso tiburones nodriza. Cada inmersión es diferente, pero siempre mágica.",
@@ -480,7 +488,7 @@ export const translations: Record<Language, TranslationObject> = {
         "certified.formation.description": "Después de tu certificación Open Water, te espera una nueva aventura: seguir progresando y ampliar tus horizontes submarinos. El curso Advanced Open Water te permite explorar nuevas sensaciones: bucear más profundo (30 m), derivar a lo largo de arrecifes espectaculares o descubrir la emoción de los pecios. El curso Rescue Diver desarrolla tus reflejos y tu confianza, enseñándote a prevenir y manejar situaciones bajo el agua para convertirte en un compañero de buceo más sólido.",
         "certified.formation.highlight": "Y para enriquecer tu experiencia, tienes muchas especialidades disponibles: el buceo profundo para descender hasta 40 metros, el buceo con Nitrox para disfrutar de más tiempo de fondo o la exploración de pecios para vivir una emoción única. Cada formación es un paso más hacia la autonomía, el dominio y el placer de descubrir el océano de otra manera.",
         "certified.formation.final_word": "Formarse continuamente no solo es un desafío personal, sino también una puerta abierta a sitios y experiencias reservadas a buceadores más experimentados. Una progresión apasionante para quienes desean convertir cada inmersión en una nueva aventura.",
-    
+
 
 
         // Services
@@ -515,6 +523,10 @@ export const translations: Record<Language, TranslationObject> = {
         'nav.diving.cenotes': 'Cenotes',
         'nav.playadelcarmen': 'Playa del Carmen',
         'nav.contact': 'Contact',
+
+        // whatsapp button
+        'whatsapp.phone': 'https://wa.me/529841674224',
+        'whatsapp.contact': 'contact us',
 
         // Hero
         'hero.title': 'DIVE INTO\nTHE RIVIERA MAYA',
@@ -646,7 +658,7 @@ export const translations: Record<Language, TranslationObject> = {
 
         // certified dive
 
-        
+
         "certified.cozumel.title": "Cozumel",
         "certified.cozumel.description": "Already certified and eager to explore new horizons? The reefs of Cozumel are among the best diving sites in the world, located just about forty minutes from Playa del Carmen. Designated a protected marine reserve since 1979, these spectacular underwater landscapes offer breathtaking drop-offs, pristine coral gardens, and incredible biodiversity.",
         "certified.cozumel.highlight": "Diving in Cozumel means drifting along with a gentle current, admiring giant colorful sponges, encountering majestic turtles, eagle rays, and sometimes even nurse sharks. Each dive is different, but always magical.",

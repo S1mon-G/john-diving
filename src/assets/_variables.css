@@ -1,5 +1,5 @@
 :root {
-    --main-font: 'Roboto', 'Segoe UI', 'Segoe UI Emoji', 'Noto Color Emoji', 'Apple Color Emoji', sans-serif;
+    --main-font: 'Roboto', sans-serif;
     --main-font-color: white;
     --cards-background-color: #03295D;
     --modale-background-color: rgba(0, 0, 0, 0.8);
@@ -12,7 +12,5 @@
     src: url("/assets/fonts/roboto.woff2") format('woff2'),
         url("/assets/fonts/roboto.woff") format('woff');
     font-display: swap;
-    ascent-override: 90%;
-    descent-override: 10%;
-    line-gap-override: 0%;
+
 }

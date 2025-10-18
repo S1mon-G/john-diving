@@ -44,7 +44,6 @@
     grid-template-columns: 1.2fr 1fr;
     gap: 2rem;
     background-color: var(--cards-background-color);
-    color: var(--main-font-color);
     padding: 2rem;
     border-radius: 10px;
     max-width: 1100px;
@@ -58,7 +57,6 @@
 }
 
 .cenote-left h2 {
-    font-size: 1.8rem;
     margin-bottom: 0.5rem;
 }
 
