@@ -4,22 +4,23 @@ import Footer from './components/footer/Footer'
 import Navigation from './components/header/Navigation'
 import './App.css'
 import './assets/_variables.css'
+import Sidemenu from './components/sidemenu/Sidemenu'
 
 
 
 function App() {
-
   return (
-    <>
-      <LanguageProvider>
+    <LanguageProvider>
+      <Navigation />
 
-        <Navigation />
-        <Outlet />
-        <Footer />
+      <Sidemenu />
 
-      </LanguageProvider>
-    </>
+      <Outlet />
+
+      <Footer />
+    </LanguageProvider>
   )
 }
 
 export default App
+
