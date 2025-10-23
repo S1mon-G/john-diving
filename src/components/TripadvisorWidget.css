@@ -1,0 +1,5 @@
+.TA_selfserveprop {
+    background-color: var(--cards-background-color);
+    padding: 20px;
+    border-radius: 10px;
+}

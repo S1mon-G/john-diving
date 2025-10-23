@@ -5,16 +5,10 @@
     align-items: flex-end;
     margin-right: 1em;
     position: fixed;
-    /* overlay on top of content */
     top: 30vh;
-    /* start at top */
     right: 0;
-    /* stick to right side */
     height: 100vh;
-    /* full viewport height */
     width: 300px;
-    /* adjust width */
     box-shadow: -2px 0 8px rgba(0, 0, 0, 0.2);
-    /* optional shadow */
     z-index: 1000;
 }

@@ -5,6 +5,7 @@ import FirstDiveModale from '../../components/modales/firstDiveModale';
 import CertifiedDiverModale from '../../components/modales/certifiedModale';
 import { useState } from 'react';
 import { useLanguage } from '../../contexts/LanguageContext';
+import TripadvisorWidget from '../../components/TripadvisorWidget';
 
 export default function Home() {
   const [openModal, setOpenModal] = useState<string | null>(null);
@@ -89,6 +90,11 @@ export default function Home() {
           </article>
         </div>
       </section>
+      <section className="reviews">
+        <h2>ILS EN PARLENT LE MIEUX</h2>
+        <TripadvisorWidget />
+      </section>
+
     </main>
   );
 }
