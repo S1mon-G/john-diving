@@ -19,7 +19,7 @@ export default function Home() {
         <img src="/img/ta-award.webp" alt="trip advisor travellers choice award 2025" />
       </section>
 
-      <section className="about">
+      <section className="about" id='about'>
         <article className="about-intro">
           <img src="/img/jd-about.webp" alt="john diving instructor introduction" className="about-picture" />
           <p>
@@ -90,6 +90,10 @@ export default function Home() {
             <p>{t('services.multilingual.desc')}</p>
           </article>
         </div>
+      </section>
+      <section className='fav-spot'>
+        <h2>{t('spot.title')}</h2>
+
       </section>
       <section className="social">
         <div className="widget-container">

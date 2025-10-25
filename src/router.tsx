@@ -3,6 +3,7 @@ import App from "./App";
 import Home from "./pages/Home/Home";
 import Contact from "./pages/Contact";
 import Privacy from "./pages/Privacy"
+import Spot from "./pages/Spots/Spots";
 
 const router = createBrowserRouter([
     {
@@ -10,9 +11,8 @@ const router = createBrowserRouter([
         children: [
             { path: "/", element: <Home /> },
             { path: "/contact", element: <Contact /> },
-            { path: "/privacy", element: <Privacy /> }
-        ]
-    }
-])
+            { path: "/privacy", element: <Privacy /> },
+            { path: "/playa-del-carmen", element: <Spot /> },]
+    }])
 
 export default router

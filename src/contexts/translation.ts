@@ -252,7 +252,7 @@ export const translations: Record<Language, TranslationObject> = {
 
         'privacy.footer': 'politique de confidentialité',
         // // Spot Section
-        // 'spot.title': 'NOTRE SPOT DU MOMENT',
+        'spot.title': 'NOTRE SPOT DU MOMENT',
         // 'spot.contact': 'NOUS CONTACTER',
         // 'spot.more': 'Plus d\'adresses à découvrir',
 
@@ -262,9 +262,6 @@ export const translations: Record<Language, TranslationObject> = {
         // // TripAdvisor
         'tripadvisor.title': 'RETROUVEZ-NOUS SUR TRIPADVISOR',
 
-        // // Reviews
-        // 'review.charles': 'Une expérience exceptionnelle ! Les guides sont professionnels et passionnés. Les cénotes sont magnifiques et l\'équipement est de qualité.',
-        // 'review.sophie': 'Plongée inoubliable dans les cénotes ! L\'équipe de John Diving est fantastique, très sécurisante et connaît parfaitement les sites.'
     },
 
     es: {
@@ -509,7 +506,7 @@ export const translations: Record<Language, TranslationObject> = {
         'privacy.title': 'Aviso de Privacidad',
 
         // // Spot Section
-        // 'spot.title': 'NUESTRO LUGAR DEL MOMENTO',
+        'spot.title': 'NUESTRO LUGAR DEL MOMENTO',
         // 'spot.contact': 'CONTÁCTANOS',
         // 'spot.more': 'Más direcciones por descubrir',
 
@@ -704,7 +701,7 @@ export const translations: Record<Language, TranslationObject> = {
         'privacy.text': '',
 
         // // Spot Section
-        // 'spot.title': 'OUR CURRENT SPOT',
+        'spot.title': 'OUR FAVOURITE SPOT',
         // 'spot.contact': 'CONTACT US',
         // 'spot.more': 'More places to discover',
 

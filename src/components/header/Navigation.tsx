@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { ChevronDown, Globe, Menu, X } from 'lucide-react';
 import { useLanguage } from '../../contexts/LanguageContext';
 import CenoteModale from '../../components/modales/cenoteModale';
@@ -50,8 +51,8 @@ const Navigation = () => {
 
 
                 <div className="nav-links">
-                    <a href="#accueil" className="nav-link">{t('nav.home')}</a>
-                    <a href="#apropos" className="nav-link">{t('nav.about')}</a>
+                    <Link to="/" className="nav-link">{t('nav.home')}</Link>
+                    <a href="#about" className="nav-link">{t('nav.about')}</a>
 
                     <div className="dropdown">
                         <button onClick={() => handleDropdownToggle('plongees')} className="dropdown-button">
@@ -74,8 +75,8 @@ const Navigation = () => {
                         )}
                     </div>
                     <img src="/img/jd-logo.webp" alt="John diving logo" className='logo' />
-                    <a href="#playadelcarmen" className="nav-link">{t('nav.playadelcarmen')}</a>
-                    <a href="#contact" className="nav-link">{t('nav.contact')}</a>
+                    <Link to='/playa-del-carmen' className="nav-link">{t('nav.playadelcarmen')}</Link>
+                    <Link to='/contact' className="nav-link">{t('nav.contact')}</Link>
 
                     <div className="dropdown">
                         <button onClick={() => handleDropdownToggle('language')} className="dropdown-button">
@@ -115,8 +116,8 @@ const Navigation = () => {
             {mobileMenuOpen && (
                 <>
                     <div className="mobile-menu">
-                        <a href="#accueil" onClick={() => setMobileMenuOpen(false)}>{t('nav.home')}</a>
-                        <a href="#apropos" onClick={() => setMobileMenuOpen(false)}>{t('nav.about')}</a>
+                        <Link to='/' onClick={() => setMobileMenuOpen(false)}>{t('nav.home')}</Link>
+                        <a href="#about" onClick={() => setMobileMenuOpen(false)}>{t('nav.about')}</a>
 
                         <button onClick={() => handleDropdownToggle('plongees')}>
                             {t('nav.diving')} <ChevronDown className="ml-1 h-4 w-4" />
@@ -129,8 +130,8 @@ const Navigation = () => {
                             </>
                         )}
 
-                        <a href="#playadelcarmen" onClick={() => setMobileMenuOpen(false)}>{t('nav.playadelcarmen')}</a>
-                        <a href="#contact" onClick={() => setMobileMenuOpen(false)}>{t('nav.contact')}</a>
+                        <Link to='/playa-del-carmen' onClick={() => setMobileMenuOpen(false)}>{t('nav.playadelcarmen')}</Link>
+                        <Link to='/contact' onClick={() => setMobileMenuOpen(false)}>{t('nav.contact')}</Link>
 
                         <button onClick={() => handleDropdownToggle('language')}>
                             <Globe className="mr-1 h-4 w-4" />
