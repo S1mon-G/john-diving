@@ -93,12 +93,12 @@ export default function Home() {
       </section>
       <section className="social">
         <div className="widget-container">
-          <h2>Retrouvez-nous sur Instagram</h2>
+          <h2>{t('instagram.title')}</h2>
           <InstagramWidget />
         </div>
       </section>
       <section className="reviews">
-        <h2>ILS EN PARLENT LE MIEUX</h2>
+        <h2>{t('tripadvisor.title')}</h2>
         <TripadvisorWidget />
       </section>
 

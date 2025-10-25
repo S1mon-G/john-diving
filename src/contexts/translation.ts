@@ -250,17 +250,17 @@ export const translations: Record<Language, TranslationObject> = {
 
         //footer 
 
-        'privacy.footer': 'politique de confidentialité'
+        'privacy.footer': 'politique de confidentialité',
         // // Spot Section
         // 'spot.title': 'NOTRE SPOT DU MOMENT',
         // 'spot.contact': 'NOUS CONTACTER',
         // 'spot.more': 'Plus d\'adresses à découvrir',
 
-        // // Instagram
-        // 'instagram.title': 'SUIVEZ-NOUS SUR INSTAGRAM',
+        // //Instagram
+        'instagram.title': 'SUIVEZ-NOUS SUR INSTAGRAM',
 
         // // TripAdvisor
-        // 'tripadvisor.title': 'RETROUVEZ-NOUS SUR TRIPADVISOR',
+        'tripadvisor.title': 'RETROUVEZ-NOUS SUR TRIPADVISOR',
 
         // // Reviews
         // 'review.charles': 'Une expérience exceptionnelle ! Les guides sont professionnels et passionnés. Les cénotes sont magnifiques et l\'équipement est de qualité.',
@@ -507,78 +507,6 @@ export const translations: Record<Language, TranslationObject> = {
 
         'privacy.footer': 'aviso de privacidad',
         'privacy.title': 'Aviso de Privacidad',
-        'privacy.text': `Con base en la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, “John Diving” (Jonathan Koskas) reconoce que la privacidad de su información es de suma importancia para usted y nosotros, por lo cual “John Diving” (Jonathan Koskas) se encuentra comprometida a resguardar su información personal con la mayor discreción, seguridad legal, tecnológica y administrativa. Asimismo, a no vender, alquilar, compartir o divulgar su información personal a terceros con fines ilícitos o contrarios a los de su titular.
-
-De acuerdo a lo anterior, el presente “Aviso de Privacidad” se aplica a toda la información, incluyendo a la información personal recopilada por nuestra empresa, así como de terceros con los que celebremos o vayamos a celebrar relación contractual, a efecto de brindarle servicios personalizados, contando siempre con los mismos niveles de seguridad exigidos por la ley. Por lo antes mencionado, y al momento de leer el presente “Aviso de Privacidad”, usted otorga su consentimiento a “John Diving” (Jonathan Koskas) para recopilar y utilizar sus datos personales para los fines que más adelante se especifican.
-
-¿Qué información recopilamos?
-
-Su información personal que recabamos será utilizada para proveer los servicios y productos que ha solicitado, informarle sobre cambios en los mismos, evaluar la calidad del servicio que le brindamos, enviar la publicidad adecuada basándonos en su perfil y en general, atender sus necesidades inherentes al negocio “John Diving” (Jonathan Koskas). Para las finalidades antes mencionadas, la información personal que nosotros recabamos se enlista a continuación:
-
-Nombre
-Apellidos
-Correo electrónico
-Fecha de nacimiento
-Género
-Teléfono
-Celular
-Nos comprometemos a que los mismos serán tratados bajo las más estrictas medidas de seguridad que garanticen su confidencialidad.
-
-¿Cómo recopilamos la información?
-
-La recolección de datos personales podrá efectuarse:
-
-Mediante el uso de correos electrónicos y visita a nuestros puntos de contacto.
-Cuando se comunica vía telefónica con nosotros.
-Mediante el uso de herramientas de captura automática de datos.
-Mediante la recopilación directa.
-Toda la información que recolectamos sobre usted puede combinarse para ayudarnos a adaptar nuestras comunicaciones a usted y desarrollar productos y servicios de acuerdo a sus necesidades y preferencias.
-
-¿Para qué fines utilizamos sus datos personales?
-
-Los datos que le solicitamos serán utilizados para las siguientes finalidades:
-
-Proveer los servicios y productos propios de la actividad de “John Diving” (Jonathan Koskas).
-Para informarle acerca de otros productos y servicios ofrecidos por el responsable y para administrar nuestros sitios y servicios.
-Evaluar la calidad del servicio que le brindamos.
-Enviar la publicidad adecuada basándonos en su perfil.
-Ofrecer productos y servicios personalizados, así como publicidad y contenidos más adecuados a sus necesidades.
-
-Responsable del tratamiento de sus datos personales
-
-“John Diving” es responsable de recabar sus datos personales, del uso que se le dé a los mismos y de su protección.
-
-¿Cómo ejercer sus derechos ARCO?
-
-Le recordamos que en materia de Protección de Datos Personales, usted podrá ejercer sus derechos denominados “ARCO” de acuerdo a lo siguiente:
-
-ACCESO: Podrá elegir la manera de comunicarse con nosotros ya sea vía telefónica a los teléfonos que a continuación se detallan, o mediante correo electrónico en nuestro portal web. Email contacto@johndiving.com o al teléfono 984 238 6761.
-RECTIFICACIÓN: Usted podrá solicitarnos que cualquiera de sus datos sea corregido, en caso de que tengamos registrado alguno erróneamente al Email contacto@johndiving.com o al teléfono 984 238 6761.
-CANCELACIÓN: Usted podrá pedir que cancelemos o demos de baja sus datos siempre y cuando exista una causa que justifique dicha acción y no tenga obligación pendiente con “John Diving” (Jonathan Koskas).
-OPOSICIÓN: En caso de que usted no tenga relación u obligación legal alguna con nosotros y decida no contratar alguno de nuestros servicios como prestador de servicios, puede hacer uso de este derecho, no compartiendo dato alguno.
-
-¿Cómo acceder o rectificar sus datos personales o cancelar u oponerse a su uso?
-
-Para la recepción, registro y atención de las solicitudes para ejercer su derecho de acceso, rectificación, cancelación y oposición a sus Datos Personales, así como para limitar el uso o divulgación de sus datos, y los demás derechos previstos en la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDP) contactar a:
-
-Administración:
-
-Teléfono: 984 238 6761
-Email: contacto@johndiving.com
-
-OTROS
-
-Otro Email o teléfono (opcional)
-
-No compartimos su información con terceros
-
-Nosotros no realizamos transferencias de sus datos personales a terceros.
-
-Modificaciones al aviso de privacidad
-
-Cualquier modificación al presente Aviso de Privacidad, será notificado a través del sitio web link del aviso en la sección de avisos.
-
-Debido al constante cambio de las plataformas en internet, así como de la forma de ofrecer y prestar servicios, John Diving (Jonathan Koskas) podrá realizar cambios a el aviso de privacidad en cualquier momento, haciéndolos públicos en el sitio www.johndiving.com. Todos los términos modificados entrarán en vigor a los 10 días de su publicación. El usuario deberá comunicar por correo electrónico (contacto@johndiving.com) si no acepta dichos cambios. Vencido este plazo se considera que el usuario acepta los nuevos términos.`
 
         // // Spot Section
         // 'spot.title': 'NUESTRO LUGAR DEL MOMENTO',
@@ -586,10 +514,10 @@ Debido al constante cambio de las plataformas en internet, así como de la forma
         // 'spot.more': 'Más direcciones por descubrir',
 
         // // Instagram
-        // 'instagram.title': 'SÍGUENOS EN INSTAGRAM',
+        'instagram.title': 'SÍGUENOS EN INSTAGRAM',
 
         // // TripAdvisor
-        // 'tripadvisor.title': 'ENCUÉNTRANOS EN TRIPADVISOR',
+        'tripadvisor.title': 'ENCUÉNTRANOS EN TRIPADVISOR',
 
     },
 
@@ -781,9 +709,9 @@ Debido al constante cambio de las plataformas en internet, así como de la forma
         // 'spot.more': 'More places to discover',
 
         // // Instagram
-        // 'instagram.title': 'FOLLOW US ON INSTAGRAM',
+        'instagram.title': 'FOLLOW US ON INSTAGRAM',
 
         // // TripAdvisor
-        // 'tripadvisor.title': 'FIND US ON TRIPADVISOR',
+        'tripadvisor.title': 'FIND US ON TRIPADVISOR',
     }
 };
