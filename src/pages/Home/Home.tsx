@@ -5,7 +5,8 @@ import FirstDiveModale from '../../components/modales/firstDiveModale';
 import CertifiedDiverModale from '../../components/modales/certifiedModale';
 import { useState } from 'react';
 import { useLanguage } from '../../contexts/LanguageContext';
-import TripadvisorWidget from '../../components/TripadvisorWidget';
+import TripadvisorWidget from '../../components/TripAdvisorWidget/TripadvisorWidget';
+import InstagramWidget from '../../components/InstagramWidget/InstagramWidget';
 
 export default function Home() {
   const [openModal, setOpenModal] = useState<string | null>(null);
@@ -88,6 +89,12 @@ export default function Home() {
             <h3>{t('services.multilingual')}</h3>
             <p>{t('services.multilingual.desc')}</p>
           </article>
+        </div>
+      </section>
+      <section className="social">
+        <div className="widget-container">
+          <h2>Retrouvez-nous sur Instagram</h2>
+          <InstagramWidget />
         </div>
       </section>
       <section className="reviews">
