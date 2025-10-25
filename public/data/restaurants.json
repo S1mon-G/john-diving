@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "Bendita Costillas",
+        "address": "60 Avenida Sur S/N, Ejidal, 77712 Playa del Carmen, Q.R., Mexico.",
+        "description": "spot.bendita.description",
+        "image1": "/img/bendita-1.webp",
+        "image2": "/img/bendita-2.webp",
+        "image3": "/img/bendita-3.webp"
+    },
+    {
+        "id": 2,
+        "name": "Bovinos",
+        "address": "Av. 10, Calle 12 Norte, 77710 Playa del Carmen, Q.R., Mexico.",
+        "description": "spot.bovinos.description",
+        "image1": "/img/bovinos-1.webp",
+        "image2": "/img/bovinos-2.webp",
+        "image3": "/img/bovinos-3.webp"
+    },
+    {
+        "id": 3,
+        "name": "La Trattoria del Centro",
+        "address": "Calle 26 Norte, entre Ave 10 et Ave 5, Centro, 77720 Playa del Carmen, Mexico.",
+        "description": "spot.latrattoria.description",
+        "image": "https://example.com/images/la_trattoria_del_centro.jpg",
+        "image1": "/img/trato-1.webp",
+        "image2": "/img/trato-2.webp",
+        "image3": "/img/trato-3.webp"
+    },
+    {
+        "id": 4,
+        "name": "El Fogon",
+        "address": "Av. Constituyentes S/N, 77720 Playa del Carmen, Q.R., Mexico.",
+        "description": "spot.elfogon.description",
+        "image1": "/img/fogon-1.webp",
+        "image2": "/img/fogon-2.webp",
+        "image3": "/img/fogon-3.webp"
+    }
+]

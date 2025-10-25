@@ -251,10 +251,18 @@ export const translations: Record<Language, TranslationObject> = {
         //footer 
 
         'privacy.footer': 'politique de confidentialité',
+
         // // Spot Section
         'spot.title': 'NOTRE SPOT DU MOMENT',
         'spots.hero.title': 'DÉCOUVREZ NOS SPOTS PRÉFÉRÉS APRÈS LA PLONGÉE',
+        'spots.description.title': 'Bonnes adresses à Playa del Carmen :',
+        'spots.description': 'Le guide de nos spots préférés',
+        'spots.paragraph': 'Après une session de plongée ou une journée à profiter des plages de sable fin, rien de tel que de découvrir les meilleures adresses de Playa del Carmen. Que ce soit pour savourer un cocktail face à la mer, déguster une cuisine locale ou simplement se détendre dans un endroit cool, ces spots sont nos incontournables de la ville.',
         'spot.restaurant.title': 'RESTAURANTS',
+        'spot.bendita.description': 'Petite adresse argentine à l’ambiance rustique où la viande est la vedette. On y déguste des côtes et entrecôtes cuites lentement sur le grill, accompagnées de chimichurri maison et d’un bon malbec. Le service est simple et chaleureux, idéal pour un dîner décontracté entre amis amateurs de viande.',
+        'spot.bovinos.description': 'Un temple pour les carnivores. Ce churrascaria à volonté propose une farandole de viandes servies directement à la broche, du picanha au filet mignon. Le cadre est soigné, le service attentif et le buffet d’accompagnements impressionnant. Parfait pour les grandes tablées et les appétits solides.',
+        'spot.latrattoria.description': 'Une véritable tranche d’Italie en plein centre-ville. L’équipe y prépare des pâtes fraîches et des pizzas au feu de bois avec des ingrédients importés et beaucoup de soin. L’ambiance rappelle les trattorias familiales, avec des tables en bois, du vin servi généreusement et une atmosphère détendue.',
+        'spot.elfogon.description': 'Un incontournable de Playa del Carmen pour goûter la vraie cuisine mexicaine. Tacos al pastor, arrachera grillée et guacamole préparé à la minute s’enchaînent dans une ambiance animée. Les odeurs du feu de bois, les rires et la musique locale créent une expérience authentique et conviviale.',
         'spot.bar.title': 'BARS',
         // 'spot.contact': 'NOUS CONTACTER',
         // 'spot.more': 'Plus d\'adresses à découvrir',
@@ -511,6 +519,13 @@ export const translations: Record<Language, TranslationObject> = {
         // // Spot Section
         'spot.title': 'NUESTRO LUGAR DEL MOMENTO',
         'spots.hero.title': 'DESCUBRES NUESTROS LUGARES FAVORITOS DESPUES DE BUCEAR',
+        'spots.description.title': 'Buenos lugares en Playa del Carmen: ',
+        'spots.description': 'la guía de nuestros sitios favoritos',
+        'spots.paragraph': 'Después de una sesión de buceo o un día disfrutando de las playas de arena blanca, no hay nada mejor que descubrir las mejores direcciones de Playa del Carmen. Ya sea para saborear un cóctel frente al mar, degustar la cocina local o simplemente relajarse en un lugar con ambiente, estos lugares son nuestros imprescindibles de la ciudad.',
+        "spot.bendita.description": "Pequeño restaurante argentino con un ambiente rústico donde la carne es la protagonista. Se disfrutan costillas y cortes asados lentamente a la parrilla, acompañados de chimichurri casero y un buen malbec. El servicio es sencillo y amable, ideal para una cena relajada entre amigos amantes de la carne.",
+        "spot.bovinos.description": "Un paraíso para los amantes de la carne. Esta churrascaría de tipo buffet ofrece un desfile constante de cortes a la parrilla, desde picanha hasta filete mignon. El ambiente es elegante, el servicio atento y el buffet de guarniciones impresionante. Perfecto para grupos grandes y buenos apetitos.",
+        "spot.latrattoria.description": "Una verdadera porción de Italia en el corazón de Playa del Carmen. El equipo prepara pasta fresca y pizzas al horno de leña con ingredientes importados y mucho cuidado. El ambiente acogedor, las mesas de madera y el vino servido generosamente evocan el calor de una trattoria familiar tradicional.",
+        "spot.elfogon.description": "Un clásico de Playa del Carmen para disfrutar de los auténticos sabores mexicanos. Tacos al pastor, arrachera a la parrilla y guacamole preparado al momento se sirven en un ambiente animado lleno de aromas de leña, risas y música local, creando una experiencia genuina y llena de vida.",
         'spot.restaurant.title': 'RESTAURANTES',
         'spot.bar.title': 'BARES',
         // 'spot.contact': 'CONTÁCTANOS',
@@ -709,6 +724,18 @@ export const translations: Record<Language, TranslationObject> = {
         // // Spot Section
         'spot.title': 'OUR FAVOURITE SPOT',
         'spot.hero.title': 'DISCOVER OUR FAVOURITE AFTER-DIVE SPOTS',
+        'spots.description.title': 'Great places in Playa del Carmen: ',
+        'spots.description': 'The guide to our favorite spots',
+        'spots.paragraph': 'After a diving session or a day spent enjoying the white sand beaches, there’s nothing better than discovering the best spots in Playa del Carmen. Whether it’s to sip a cocktail by the sea, taste local cuisine, or simply relax in a cool place, these spots are our must-visits in the city.',
+
+        "spot.bendita.description": "A cozy Argentine spot with a rustic atmosphere where meat takes center stage. Guests enjoy slowly grilled ribs and steaks served with homemade chimichurri and a good malbec. Simple, friendly service makes it perfect for a relaxed dinner among meat-loving friends.",
+        "spot.bovinos.description": "A paradise for meat lovers. This all-you-can-eat churrascaria offers a continuous parade of grilled cuts, from picanha to filet mignon. The setting is elegant, the service attentive, and the buffet of sides impressive. Ideal for large groups and hearty appetites.",
+        "spot.latrattoria.description": "A true slice of Italy in the heart of Playa del Carmen. The team crafts fresh pasta and wood-fired pizzas with imported ingredients and great care. The cozy setting, wooden tables, and generous wine pours recreate the warmth of a traditional family trattoria.",
+        "spot.elfogon.description": "A Playa del Carmen staple for authentic Mexican flavors. Tacos al pastor, grilled arrachera, and freshly made guacamole are served in a lively setting filled with the aromas of wood fire, laughter, and local music—an experience both genuine and full of life.",
+
+
+        'spot.restaurant.title': 'RESTAURANTS',
+        'spot.bar.title': 'BARS',
         // 'spot.contact': 'CONTACT US',
         // 'spot.more': 'More places to discover',
 
