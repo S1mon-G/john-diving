@@ -1,5 +1,5 @@
 .spot-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../../public/img/spot-hero.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/img/spot-hero.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

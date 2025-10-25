@@ -74,7 +74,7 @@ const Navigation = () => {
 
                         )}
                     </div>
-                    <img src="/img/jd-logo.webp" alt="John diving logo" className='logo' />
+                    <Link to='/'><img src="/img/jd-logo.webp" alt="John diving logo" className='logo' /></Link>
                     <Link to='/playa-del-carmen' className="nav-link">{t('nav.playadelcarmen')}</Link>
                     <Link to='/contact' className="nav-link">{t('nav.contact')}</Link>
 

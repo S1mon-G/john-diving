@@ -253,6 +253,9 @@ export const translations: Record<Language, TranslationObject> = {
         'privacy.footer': 'politique de confidentialité',
         // // Spot Section
         'spot.title': 'NOTRE SPOT DU MOMENT',
+        'spots.hero.title': 'DÉCOUVREZ NOS SPOTS PRÉFÉRÉS APRÈS LA PLONGÉE',
+        'spot.restaurant.title': 'RESTAURANTS',
+        'spot.bar.title': 'BARS',
         // 'spot.contact': 'NOUS CONTACTER',
         // 'spot.more': 'Plus d\'adresses à découvrir',
 
@@ -507,6 +510,9 @@ export const translations: Record<Language, TranslationObject> = {
 
         // // Spot Section
         'spot.title': 'NUESTRO LUGAR DEL MOMENTO',
+        'spots.hero.title': 'DESCUBRES NUESTROS LUGARES FAVORITOS DESPUES DE BUCEAR',
+        'spot.restaurant.title': 'RESTAURANTES',
+        'spot.bar.title': 'BARES',
         // 'spot.contact': 'CONTÁCTANOS',
         // 'spot.more': 'Más direcciones por descubrir',
 
@@ -702,6 +708,7 @@ export const translations: Record<Language, TranslationObject> = {
 
         // // Spot Section
         'spot.title': 'OUR FAVOURITE SPOT',
+        'spot.hero.title': 'DISCOVER OUR FAVOURITE AFTER-DIVE SPOTS',
         // 'spot.contact': 'CONTACT US',
         // 'spot.more': 'More places to discover',
 
