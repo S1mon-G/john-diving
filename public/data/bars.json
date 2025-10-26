@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Chela De Playa",
+        "address": "Calle 38 Nte. entre 1a Norte et Calle Flamingo, Centro, 77710 Playa del Carmen, Mexico",
+        "description": "spot.chela.description",
+        "image1": "/img/chela-1.webp",
+        "image2": "/img/chela-2.webp",
+        "image3": "/img/chela-3.webp"
+    },
+    {
+        "id": 2,
+        "name": "Zenzi Bar",
+        "address": "Calle 10 Nte. y la Playa, Centro, 77710 Playa del Carmen, Mexico",
+        "description": "spot.zenzi.description",
+        "image1": "/img/zenzi-1.webp",
+        "image2": "/img/zenzi-2.webp",
+        "image3": "/img/zenzi-3.webp"
+    }
+]

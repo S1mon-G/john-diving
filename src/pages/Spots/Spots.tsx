@@ -1,61 +1,101 @@
 import { useState, useEffect } from "react"
 import { useLanguage } from "../../contexts/LanguageContext"
 import "./Spots.css"
-interface Restaurant {
-    id: number;
-    name: string;
-    address: string;
-    description: string;
-    image1?: string;
-    image2?: string;
-    image3?: string;
+
+interface Spot {
+    id: number
+    name: string
+    address: string
+    description: string
+    image1?: string
+    image2?: string
+    image3?: string
+    type: "restaurant" | "bar"
 }
 
-function useRestaurantData() {
-    const [restaurantInfos, setRestaurantInfos] = useState<Restaurant[]>([]);
+function useSpotsData() {
+    const [spots, setSpots] = useState<Spot[]>([])
+
     useEffect(() => {
-        fetch("/data/restaurants.json")
-            .then((res) => res.json())
-            .then(setRestaurantInfos)
-            .catch((err) => console.error("Error fetching restaurant data:", err));
+        Promise.all([
+            fetch("/data/restaurants.json").then(res => res.json()),
+            fetch("/data/bars.json").then(res => res.json())
+        ])
+            .then(([restaurants, bars]) => {
+                const restaurantsWithType = restaurants.map((r: Spot) => ({
+                    ...r,
+                    type: "restaurant"
+                }))
+                const barsWithType = bars.map((b: Spot) => ({
+                    ...b,
+                    type: "bar"
+                }))
+                setSpots([...restaurantsWithType, ...barsWithType])
+            })
+            .catch(err => console.error("Error fetching spots:", err))
     }, [])
-    return restaurantInfos;
+
+    return spots
 }
 
 export default function Spots() {
     const { t } = useLanguage()
-    const restaurantInfos = useRestaurantData();
+    const spots = useSpotsData()
+
+    const restaurants = spots.filter(s => s.type === "restaurant")
+    const bars = spots.filter(s => s.type === "bar")
 
     return (
         <>
             <section className="spot-hero">
-                <h1>{t('spots.hero.title')}</h1>
+                <h1>{t("spots.hero.title")}</h1>
             </section>
+
             <section className="spots-about">
-                <img src="/img/spot-about.webp" alt={t('spot.hero.title')} className="about-picture" />
-                <div className='spot-description'><h3>{t('spots.description.title')}</h3>
-                    <p>{t('spots.description')}</p>
-                    <p>{t('spots.paragraph')}</p>
+                <img
+                    src="/img/spot-about.webp"
+                    alt={t("spot.hero.title")}
+                    className="about-picture"
+                />
+                <div className="spot-description">
+                    <h3>{t("spots.description.title")}</h3>
+                    <p>{t("spots.description")}</p>
+                    <p>{t("spots.paragraph")}</p>
                 </div>
             </section>
+
             <section className="spot-cards">
-                <h2>{t('spot.restaurant.title')}</h2>
-                {restaurantInfos.map((restaurant) => (
-                    <article className="restaurant-card">
+                <h2>{t("spot.restaurant.title")}</h2>
+                {restaurants.map(r => (
+                    <article className="restaurant-card" key={r.id}>
                         <div className="restaurant-header">
-                            <h3>{t(restaurant.name)}</h3>
-                            <h4>{restaurant.address}</h4>
+                            <h3>{t(r.name)}</h3>
+                            <h4>{r.address}</h4>
                         </div>
-                        <p>{t(restaurant.description)}</p>
+                        <p>{t(r.description)}</p>
                         <div className="restaurant-image-container">
-                            <img src={restaurant.image1} alt={t(restaurant.name)} />
-                            <img src={restaurant.image2} alt={t(restaurant.name)} className="second" />
-                            <img src={restaurant.image3} alt={t(restaurant.name)} className="third" />
+                            <img src={r.image1} alt={t(r.name)} />
+                            <img src={r.image2} alt={t(r.name)} className="second" />
+                            <img src={r.image3} alt={t(r.name)} className="third" />
                         </div>
                     </article>
                 ))}
 
-                <h2>{t('spot.bar.title')}</h2>
+                <h2>{t("spot.bar.title")}</h2>
+                {bars.map(b => (
+                    <article className="restaurant-card" key={b.id}>
+                        <div className="restaurant-header">
+                            <h3>{t(b.name)}</h3>
+                            <h4>{b.address}</h4>
+                        </div>
+                        <p>{t(b.description)}</p>
+                        <div className="restaurant-image-container">
+                            <img src={b.image1} alt={t(b.name)} />
+                            <img src={b.image2} alt={t(b.name)} className="second" />
+                            <img src={b.image3} alt={t(b.name)} className="third" />
+                        </div>
+                    </article>
+                ))}
             </section>
         </>
     )
