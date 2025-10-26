@@ -60,7 +60,7 @@ section h2 {
 
 .divings-cards {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 40px;
     margin: 40px 0;
     flex-wrap: wrap;
@@ -71,8 +71,8 @@ section h2 {
 }
 
 .divings-img-wrapper {
-    height: 666px;
-    width: 410px;
+    height: 444px;
+    width: 274px;
     border-radius: 10px;
     padding: 0.5em;
     background-color: var(--cards-background-color);
