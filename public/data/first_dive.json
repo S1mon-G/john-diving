@@ -1,18 +1,22 @@
 [
     {
-    "id": 1,
-    "title": "first_dive.dsd.title",
-    "description": "first_dive.dsd.description",
-    "highlights": "first_dive.dsd.highlights",
-    "final_word": "first_dive.dsd.final_word",
-    "image": "img/dsd.jpg"
+        "id": 1,
+        "title": "first_dive.dsd.title",
+        "description": "first_dive.dsd.description",
+        "highlights": "first_dive.dsd.highlights",
+        "final_word": "first_dive.dsd.final_word",
+        "image1": "img/jd-cenote-test.webp",
+        "image2": "img/jd-cenote-test.webp",
+        "image3": "img/jd-cenote-test.webp"
     },
     {
-    "id": 2,
-    "title": "first_dive.ow.title",
-    "description": "first_dive.ow.description",
-    "highlights": "first_dive.ow.highlights",
-    "final_word": "first_dive.ow.final_word",
-    "image": "img/.ow.jpg"
+        "id": 2,
+        "title": "first_dive.ow.title",
+        "description": "first_dive.ow.description",
+        "highlights": "first_dive.ow.highlights",
+        "final_word": "first_dive.ow.final_word",
+        "image1": "img/jd-cenote-test.webp",
+        "image2": "img/jd-cenote-test.webp",
+        "image3": "img/jd-cenote-test.webp"
     }
 ]
