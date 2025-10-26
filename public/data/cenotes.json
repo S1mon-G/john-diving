@@ -16,7 +16,9 @@
       "diving.chacmool.highlight4"
     ],
     "final_word": "diving.chacmool.final_word",
-    "image": "img/chacmool.jpg"
+    "image1": "img/jd-cenote-test.webp",
+    "image2": "img/jd-cenote-test.webp",
+    "image3": "img/jd-cenote-test.webp"
   },
   {
     "id": 2,
@@ -35,7 +37,9 @@
       "diving.dosojos.highlight4"
     ],
     "final_word": "diving.dosojos.final_word",
-    "image": "img/dosojos.jpg"
+    "image1": "img/jd-cenote-test.webp",
+    "image2": "img/jd-cenote-test.webp",
+    "image3": "img/jd-cenote-test.webp"
   },
   {
     "id": 3,
@@ -54,7 +58,9 @@
       "diving.eden.highlight4"
     ],
     "final_word": "diving.eden.final_word",
-    "image": "img/eden.jpg"
+    "image1": "img/jd-cenote-test.webp",
+    "image2": "img/jd-cenote-test.webp",
+    "image3": "img/jd-cenote-test.webp"
   },
   {
     "id": 4,
@@ -73,7 +79,9 @@
       "diving.elpit.highlight4"
     ],
     "final_word": "diving.elpit.final_word",
-    "image": "img/elpit.jpg"
+    "image1": "img/jd-cenote-test.webp",
+    "image2": "img/jd-cenote-test.webp",
+    "image3": "img/jd-cenote-test.webp"
   },
   {
     "id": 5,
@@ -92,7 +100,9 @@
       "diving.angelita.highlight4"
     ],
     "final_word": "diving.angelita.final_word",
-    "image": "img/angelita.jpg"
+    "image1": "img/jd-cenote-test.webp",
+    "image2": "img/jd-cenote-test.webp",
+    "image3": "img/jd-cenote-test.webp"
   },
   {
     "id": 6,
@@ -111,7 +121,9 @@
       "diving.dreamgate.highlight4"
     ],
     "final_word": "diving.dreamgate.final_word",
-    "image": "img/dreamgate.jpg"
+    "image1": "img/jd-cenote-test.webp",
+    "image2": "img/jd-cenote-test.webp",
+    "image3": "img/jd-cenote-test.webp"
   },
   {
     "id": 7,
@@ -130,7 +142,9 @@
       "diving.taakbiha.highlight4"
     ],
     "final_word": "diving.taakbiha.final_word",
-    "image": "img/taakbiha.jpg"
+    "image1": "img/jd-cenote-test.webp",
+    "image2": "img/jd-cenote-test.webp",
+    "image3": "img/jd-cenote-test.webp"
   },
   {
     "id": 8,
@@ -149,7 +163,9 @@
       "diving.nicteha.highlight4"
     ],
     "final_word": "diving.nicteha.final_word",
-    "image": "img/nicteha.jpg"
+    "image1": "img/jd-cenote-test.webp",
+    "image2": "img/jd-cenote-test.webp",
+    "image3": "img/jd-cenote-test.webp"
   },
   {
     "id": 9,
@@ -168,7 +184,9 @@
       "diving.carwash.highlight4"
     ],
     "final_word": "diving.carwash.final_word",
-    "image": "img/carwash.jpg"
+    "image1": "img/jd-cenote-test.webp",
+    "image2": "img/jd-cenote-test.webp",
+    "image3": "img/jd-cenote-test.webp"
   },
   {
     "id": 10,
@@ -187,7 +205,9 @@
       "diving.casacenote.highlight4"
     ],
     "final_word": "diving.casacenote.final_word",
-    "image": "img/casacenote.jpg"
+    "image1": "img/jd-cenote-test.webp",
+    "image2": "img/jd-cenote-test.webp",
+    "image3": "img/jd-cenote-test.webp"
   },
   {
     "id": 11,
@@ -206,7 +226,9 @@
       "diving.zapote.highlight4"
     ],
     "final_word": "diving.zapote.final_word",
-    "image": "img/zapote.jpg"
+    "image1": "img/jd-cenote-test.webp",
+    "image2": "img/jd-cenote-test.webp",
+    "image3": "img/jd-cenote-test.webp"
   },
   {
     "id": 12,
@@ -225,7 +247,9 @@
       "diving.maravilla.highlight4"
     ],
     "final_word": "diving.maravilla.final_word",
-    "image": "img/maravilla.jpg"
+    "image1": "img/jd-cenote-test.webp",
+    "image2": "img/jd-cenote-test.webp",
+    "image3": "img/jd-cenote-test.webp"
   },
   {
     "id": 13,
@@ -244,7 +268,9 @@
       "diving.yaakun.highlight4"
     ],
     "final_word": "diving.yaakun.final_word",
-    "image": "img/yaakun.jpg"
+    "image1": "img/jd-cenote-test.webp",
+    "image2": "img/jd-cenote-test.webp",
+    "image3": "img/jd-cenote-test.webp"
   },
   {
     "id": 14,
@@ -263,6 +289,8 @@
       "diving.nohoch.highlight4"
     ],
     "final_word": "diving.nohoch.final_word",
-    "image": "img/nohoch.jpg"
+    "image1": "img/jd-cenote-test.webp",
+    "image2": "img/jd-cenote-test.webp",
+    "image3": "img/jd-cenote-test.webp"
   }
 ]

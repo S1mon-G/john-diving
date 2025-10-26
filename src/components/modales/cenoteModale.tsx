@@ -10,7 +10,9 @@ interface Cenote {
     highlights: string[];
     selling_points: string[];
     final_word: string;
-    image?: string;
+    image1?: string;
+    image2?: string;
+    image3?: string;
 }
 
 interface Props {
@@ -42,41 +44,70 @@ export default function CenoteModale({ isOpen, onClose }: Props) {
                 </button>
 
                 {cenoteInfos.map((cenote) => (
-                    <div key={cenote.id} className="cenote-infos">
-                        <div className="cenote-left">
-                            <h2>{t(cenote.title)}</h2>
-                            <p>{t(cenote.description)}</p>
-
-                            <h3>{t('diving.title.highlight')}</h3>
-                            <ul>
-                                {cenote.highlights.map((item, i) => (
-                                    <li key={i}>{t(item)}</li>
-                                ))}
-                            </ul>
-
-                            <h3>{t('diving.title.dive')}</h3>
-                            <ul>
-                                {cenote.selling_points.map((point, i) => (
-                                    <li key={i}>{t(point)}</li>
-                                ))}
-                            </ul>
-
-                            <p>{t(cenote.final_word)}</p>
-
-                            <div className="cenote-contact">
-                                <WhattsappButton />
-                            </div>
-                        </div>
-
-                        <div className="cenote-right">
-                            <img
-                                src="img/jd-cenote-test.webp"
-                                alt={cenote.title}
-                            />
-                        </div>
-                    </div>
+                    <CenoteContent key={cenote.id} cenote={cenote} t={t} />
                 ))}
             </article>
         </section>
+    );
+}
+
+function CenoteContent({ cenote, t }: { cenote: Cenote; t: (key: string) => string }) {
+    const images = [cenote.image1, cenote.image2, cenote.image3].filter(Boolean);
+    const [index, setIndex] = useState(0);
+
+    const next = () => setIndex((i) => (i + 1) % images.length);
+    const prev = () => setIndex((i) => (i - 1 + images.length) % images.length);
+
+    return (
+        <div className="cenote-infos">
+            <div className="cenote-left">
+                <h2>{t(cenote.title)}</h2>
+                <p>{t(cenote.description)}</p>
+
+                <h3>{t("diving.title.highlight")}</h3>
+                <ul>
+                    {cenote.highlights.map((item, i) => (
+                        <li key={i}>{t(item)}</li>
+                    ))}
+                </ul>
+
+                <h3>{t("diving.title.dive")}</h3>
+                <ul>
+                    {cenote.selling_points.map((point, i) => (
+                        <li key={i}>{t(point)}</li>
+                    ))}
+                </ul>
+
+                <p>{t(cenote.final_word)}</p>
+
+                <div className="cenote-contact">
+                    <WhattsappButton />
+                </div>
+            </div>
+
+            <div className="cenote-right">
+                <div className="carousel">
+                    {images.length > 0 && (
+                        <>
+                            <img
+                                src={images[index]}
+                                alt={`${cenote.title} image ${index + 1}`}
+                                className="carousel-image"
+                            />
+                            {images.length > 1 && (
+                                <div className="carousel-controls">
+                                    <button onClick={prev} aria-label="Previous image">
+                                        ‹
+                                    </button>
+                                    <button onClick={next} aria-label="Next image">
+                                        ›
+                                    </button>
+                                </div>
+                            )}
+                        </>
+                    )}
+                </div>
+            </div>
+        </div>
     );
 }
