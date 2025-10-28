@@ -7,6 +7,7 @@ import { useState } from 'react';
 import { useLanguage } from '../../contexts/LanguageContext';
 import TripadvisorWidget from '../../components/TripAdvisorWidget/TripadvisorWidget';
 import InstagramWidget from '../../components/InstagramWidget/InstagramWidget';
+import RandomSpot from '../../components/RandomSpot/RandomSpot';
 
 export default function Home() {
   const [openModal, setOpenModal] = useState<string | null>(null);
@@ -93,7 +94,7 @@ export default function Home() {
       </section>
       <section className='fav-spot'>
         <h2>{t('spot.title')}</h2>
-
+        <RandomSpot />
       </section>
       <section className="social">
         <div className="widget-container">

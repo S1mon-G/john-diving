@@ -26,14 +26,14 @@
 .spot-cards {
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
 }
 
 .spot-cards h2 {
     margin: 1em 0;
 }
 
-.restaurant-card {
+.spot-card {
     display: grid;
     grid-template-columns: repeat(2, 390px);
     grid-template-rows: 80px, repeat(2, 300px);
@@ -41,11 +41,11 @@
     margin: 2em 0;
 }
 
-.restaurant-card p {
+.spot-card p {
     padding-top: 1em;
 }
 
-.restaurant-header {
+.spot-header {
     grid-column: span 2 / span 2;
     display: flex;
     gap: 2em;
@@ -55,7 +55,7 @@
 }
 
 
-.restaurant-image-container {
+.spot-image-container {
     grid-row-start: 2;
     display: grid;
     grid-template-columns: repeat(2, 160px);
@@ -65,7 +65,7 @@
     margin-top: 0.3em;
 }
 
-.restaurant-image-container img {
+.spot-image-container img {
     border-radius: 8px;
 }
 

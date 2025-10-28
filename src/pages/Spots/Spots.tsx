@@ -67,13 +67,13 @@ export default function Spots() {
             <section className="spot-cards">
                 <h2>{t("spot.restaurant.title")}</h2>
                 {restaurants.map(r => (
-                    <article className="restaurant-card" key={r.id}>
-                        <div className="restaurant-header">
+                    <article className="spot-card" key={r.id}>
+                        <div className="spot-header">
                             <h3>{t(r.name)}</h3>
                             <h4>{r.address}</h4>
                         </div>
                         <p>{t(r.description)}</p>
-                        <div className="restaurant-image-container">
+                        <div className="spot-image-container">
                             <img src={r.image1} alt={t(r.name)} />
                             <img src={r.image2} alt={t(r.name)} className="second" />
                             <img src={r.image3} alt={t(r.name)} className="third" />
@@ -83,13 +83,13 @@ export default function Spots() {
 
                 <h2>{t("spot.bar.title")}</h2>
                 {bars.map(b => (
-                    <article className="restaurant-card" key={b.id}>
-                        <div className="restaurant-header">
+                    <article className="spot-card" key={b.id}>
+                        <div className="spot-header">
                             <h3>{t(b.name)}</h3>
                             <h4>{b.address}</h4>
                         </div>
                         <p>{t(b.description)}</p>
-                        <div className="restaurant-image-container">
+                        <div className="spot-image-container">
                             <img src={b.image1} alt={t(b.name)} />
                             <img src={b.image2} alt={t(b.name)} className="second" />
                             <img src={b.image3} alt={t(b.name)} className="third" />
