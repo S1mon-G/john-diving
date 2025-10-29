@@ -126,6 +126,10 @@ section h2 {
     align-items: center;
 }
 
+.fav-spot {
+    margin: 2em 0;
+}
+
 .reviews {
     margin: 80px 0;
     display: flex;
@@ -143,6 +147,7 @@ section h2 {
 
 .widget-container {
     width: 60vw;
+    z-index: 0;
 }
 
 .widget-container h2 {

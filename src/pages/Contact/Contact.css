@@ -1,0 +1,39 @@
+.contact-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/img/contact-hero.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: min(100vh, 700px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-infos {
+    margin: 2em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h3 {
+        margin: 1em 0;
+    }
+
+    p {
+        margin: 2em 0;
+    }
+}
+
+.contact-links {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 1em;
+
+    article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}

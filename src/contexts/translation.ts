@@ -29,6 +29,14 @@ export const translations: Record<Language, TranslationObject> = {
         'about.introduction': "Je suis John, instructeur de plongée et guide en cénote dans la Riviera Maya depuis plus de 7 ans.",
         'about.description': "Je vous emmènerai découvrir les magnifiques fonds marins de Playa del Carmen, Tulum et Cozumel, ainsi que vivre l’expérience des cenotes mystiques et mythiques du Yucatan.",
 
+        // Contact Page
+        'contact.hero.title': 'CONTACTEZ-NOUS',
+        'contact.info.paragraph': 'Besoin de plus de reseignements ou envie de planifier une sortie personnalisée ? N\'hesitez-pas à nous envoyer un message',
+        'contact.messenger.info': 'Sur Messenger',
+        'contact.whatsapp.info': 'Sur Whatsapp',
+        'contact.mail.info': 'Ou par mail.',
+        'contact.conclusion': 'On vous répondra dès qu\'on sort de l\'eau !',
+
         // Diving Section
         'diving.title': 'Nos Plongées',
         'diving.beginners': 'PREMIÈRES PLONGÉES',

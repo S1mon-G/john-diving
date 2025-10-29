@@ -5,12 +5,12 @@ import Navigation from './components/header/Navigation'
 import './App.css'
 import './assets/_variables.css'
 import Sidemenu from './components/sidemenu/Sidemenu'
-
-
+import ScrollToTop from './hooks/ScrollTop'
 
 function App() {
   return (
     <LanguageProvider>
+      <ScrollToTop />
       <Navigation />
 
       <Sidemenu />

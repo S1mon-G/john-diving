@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router";
 import App from "./App";
 import Home from "./pages/Home/Home";
-import Contact from "./pages/Contact";
+import Contact from "./pages/Contact/Contact";
 import Privacy from "./pages/Privacy"
 import Spot from "./pages/Spots/Spots";
 

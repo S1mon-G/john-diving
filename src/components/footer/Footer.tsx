@@ -1,5 +1,6 @@
 import './Footer.css'
 import { useLanguage } from '../../contexts/LanguageContext'
+import { Link } from 'react-router';
 
 export default function Footer() {
   const { t } = useLanguage();
@@ -12,7 +13,7 @@ export default function Footer() {
         <p>contact@johndiving.com</p>
       </div>
       <div className='logo-infos'>
-        <img src="../../../img/jd-logo.webp" alt='john diving logo' />
+        <Link to='/'><img src="../../../img/jd-logo.webp" alt='john diving logo' /></Link>
         <p>© 2025 John Diving. All rights reserved.</p>
         <p>Playa del Carmen, Tulum, Riviera Maya, Mexico</p>
       </div>
