@@ -14,12 +14,12 @@ export default function Contact() {
                 <section className="contact-links">
                     <article>
                         <h3>{t('contact.whatsapp.info')}</h3>
-                        <a href=""><img src="/img/whatsapp-logo.png" alt="" /></a>
+                        <a href={t('whatsapp.phone')}><img src="/img/whatsapp-logo.png" alt="" /></a>
                     </article>
 
                     <article>
                         <h3>{t('contact.messenger.info')}</h3>
-                        <a href=""><img src="/img/messenger-logo.png" alt="" /></a>
+                        <a href="https://m.me/JohnPlaya"><img src="/img/messenger-logo.png" alt="" /></a>
                     </article>
 
                     <article>
