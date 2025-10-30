@@ -24,7 +24,7 @@ export default function Contact() {
 
                     <article>
                         <h3>{t('contact.mail.info')}</h3>
-                        <a href=""><Mail size={50} color="currentColor" /></a>
+                        <a href="mailto:contact@johndiving.com"><Mail size={50} color="currentColor" /></a>
                     </article>
                 </section>
                 <p>{t('contact.conclusion')}</p>

@@ -308,6 +308,13 @@ export const translations: Record<Language, TranslationObject> = {
         'about.introduction': "Soy John, instructor de buceo y guía de cenotes en la Riviera Maya desde hace más de 7 años.",
         'about.description': "Te llevaré a descubrir los impresionantes fondos marinos de Playa del Carmen, Tulum y Cozumel, así como a vivir la experiencia de los cenotes místicos y legendarios del Yucatán.",
 
+        'contact.hero.title': 'CONTÁCTANOS',
+        'contact.info.paragraph': '¿Necesitas más información o quieres planear una salida personalizada? No dudes en enviarnos un mensaje.',
+        'contact.messenger.info': 'En Messenger',
+        'contact.whatsapp.info': 'En WhatsApp',
+        'contact.mail.info': 'O por correo electrónico.',
+        'contact.conclusion': '¡Te responderemos en cuanto salgamos del agua!',
+
         // Diving Section
         'diving.title': 'Nuestros Buceos',
         'diving.beginners': 'PRIMEROS BUCEOS',
@@ -573,6 +580,13 @@ export const translations: Record<Language, TranslationObject> = {
         'about.title': 'ABOUT US',
         'about.introduction': "I’m John, a diving instructor and cenote guide in the Riviera Maya for over 7 years.",
         'about.description': "I will take you to discover the stunning underwater worlds of Playa del Carmen, Tulum, and Cozumel, as well as experience the mystical and legendary cenotes of the Yucatán.",
+
+        'contact.hero.title': 'CONTACT US',
+        'contact.info.paragraph': 'Need more information or want to plan a personalized trip? Feel free to send us a message.',
+        'contact.messenger.info': 'On Messenger',
+        'contact.whatsapp.info': 'On WhatsApp',
+        'contact.mail.info': 'Or by email.',
+        'contact.conclusion': 'We’ll reply as soon as we’re out of the water!',
 
 
         // Diving Section

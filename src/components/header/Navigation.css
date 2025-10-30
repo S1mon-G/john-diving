@@ -16,7 +16,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 6rem;
+    height: 7rem;
     padding: 0 1em;
 }
 
@@ -27,6 +27,7 @@
 .nav-links {
     display: none;
     gap: 2rem;
+    padding: 0.5em 0;
 }
 
 @media (min-width: 768px) {
